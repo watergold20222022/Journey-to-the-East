@@ -54,6 +54,7 @@ export default function Home({ initialChapters }) {
 
       <header className="header">
         <h1>Journey to the East</h1>
+        <p className="subtitle">SYSTEM STATUS: ONLINE | PROTOCOL: GREAT SAGE EQUAL TO HEAVEN</p>
       </header>
 
       <main className="main">
@@ -103,7 +104,12 @@ export default function Home({ initialChapters }) {
           font-family: 'Courier New', monospace;
           line-height: 1.6;
           color: #00ffff;
-          background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 50%, #0f0f23 100%);
+          background: 
+            linear-gradient(rgba(10, 10, 26, 0.85), rgba(10, 10, 26, 0.85)),
+            url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=2000');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
         }
         
         .container {
@@ -112,7 +118,26 @@ export default function Home({ initialChapters }) {
           min-height: 100vh;
           display: flex;
           flex-direction: column;
-          background: linear-gradient(180deg, rgba(0, 255, 255, 0.02) 0%, rgba(138, 43, 226, 0.02) 100%);
+          background: rgba(0, 255, 255, 0.02);
+          position: relative;
+        }
+
+        .container::before {
+          content: '';
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 2px,
+            rgba(0, 255, 255, 0.03) 2px,
+            rgba(0, 255, 255, 0.03) 4px
+          );
+          pointer-events: none;
+          z-index: 10;
         }
         
         .header {
@@ -149,13 +174,25 @@ export default function Home({ initialChapters }) {
           text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
           letter-spacing: 2px;
           font-weight: bold;
+          animation: glitch 5s infinite;
+        }
+
+        @keyframes glitch {
+          0% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
+          2% { text-shadow: 2px 0 #ff00ff, -2px 0 #00ffff; }
+          4% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
+          98% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
+          99% { text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff; }
+          100% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
         }
         
-        .header p {
+        .subtitle {
           color: #8a2be2;
           text-shadow: 0 0 10px #8a2be2;
           font-size: 0.9rem;
-          letter-spacing: 1px;
+          letter-spacing: 3px;
+          font-weight: bold;
+          margin-top: 0.5rem;
         }
         
         .main {
