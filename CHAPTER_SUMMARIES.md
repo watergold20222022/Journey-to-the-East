@@ -88,3 +88,19 @@ Wukong arrives at Planet Kunlun and meets Nuwa, the creator goddess. She agrees 
 - Identity and the "mask" of the hero.
 - The cost of knowledge.
 - Philosophical introspection in a high-tech world.
+
+## Chapter 6: The Beast-Man Metropolis
+
+**Setting:** A high-tech city of beast-men (hybrids) with industrial sewers and a glass-shard beach.
+
+**Characters:**
+- **Zhu Bajie:** Lost, powerless, and struggling with his appearance.
+- **Beast-Man Mob:** Citizens of the city who hunt "Pure-Blood" humans.
+
+**Plot Summary:**
+Zhu Bajie wakes up in a high-tech city's sewer system. After cleaning himself, he uses his transformation powers to become a handsome human man to avoid scaring people. However, he discovers that the city is populated entirely by beast-men (animal-human hybrids) who view "Pure-Blood" humans as rare prizes or prey. He is hunted by a mob and finds that his magic and weapon (the Nine-Toothed Rake) are suppressed in this environment. He narrowly escapes by transforming back into his pig-man form, blending in as a low-tier hybrid. He realizes he must reach the **Genetic Archive** to find answers.
+
+**Key Themes:**
+- The irony of beauty and monstrosity.
+- Survival in a world where the "normal" is alien.
+- The loss of power and reliance on wit.
