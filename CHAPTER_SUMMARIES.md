@@ -54,3 +54,20 @@ Wukong wakes up in Guanyin’s orbital station, fully healed but devastated by h
 - Dealing with failure and guilt.
 - The transition from a structured mission to an uncertain quest.
 - The vastness and unpredictability of the multiverse.
+
+## Chapter 4: The Kunlun Trajectory
+
+**Setting:** *Rakshasa-7* (a volcanic moon and estate of the Bull Demon King) and the spaceship *Ox-Tail*.
+
+**Characters:**
+- **Sun Wukong:** Seeking a direction for his new quest.
+- **Bull Demon King & Princess Iron Fan:** Grieving parents of Red Boy who provide guidance and resources.
+- **Niu-Nav:** The AI navigator of the *Ox-Tail*.
+
+**Plot Summary:**
+Feeling lost, Wukong visits his old friends, the Bull Demon King and Princess Iron Fan, on their volcanic moon estate. The parents apologize for Red Boy's actions but are devastated by his imprisonment. The Bull Demon King suggests that Wukong's first destination should be **Planet Kunlun**, a crystalline archive beyond the Nine Heavens that contains the soul-codes of all beings. To help him get there, they gift him the **Ox-Tail**, a high-tech stealth scout ship equipped with an AI navigator named **Niu-Nav**. Wukong departs, heading toward the unexplored Void of Primordial Data.
+
+**Key Themes:**
+- Shared grief and reconciliation.
+- The search for knowledge in a vast universe.
+- The transition from individual power to technological assistance.
