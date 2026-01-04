@@ -26,6 +26,7 @@ This is a Next.js 14 application that renders markdown content from the `chapter
 - Pages and API routes go in `pages/` directory
 - Markdown chapter files go in `chapters/` directory
 - Chapter files use kebab-case naming with optional numeric prefixes (e.g., `01-the-monkey-kings-origin.md`)
+- `CHAPTER_SUMMARIES.md` contains summaries of all chapters for narrative reference
 
 ### Imports
 - Use ES6 import statements at the top of files
@@ -77,6 +78,7 @@ This is a Next.js 14 application that renders markdown content from the `chapter
 - Use gray-matter to parse frontmatter: `const matterResult = matter(fileContents)`
 - Convert markdown to HTML using remark: `await remark().use(html).process(content)`
 - Sort chapters by numeric prefix if present using regex: `parseInt(slug.match(/^\d+/)?.[0])`
+- **Always update `CHAPTER_SUMMARIES.md` when adding or significantly changing a chapter.**
 
 ### Writing Guidelines
 - All chapters must be written in English
