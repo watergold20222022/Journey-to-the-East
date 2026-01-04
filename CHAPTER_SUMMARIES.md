@@ -37,3 +37,20 @@ Exiled in the void of Eternal Hell, Red Boy reflects on the source of his hatred
 - Father-son conflict and the rejection of legacy.
 - The corrupting nature of jealousy.
 - Resilience born from hatred.
+
+## Chapter 3: The Shattered Fellowship
+
+**Setting:** *Potala Station* (Guanyin’s orbital sanctuary) and the surrounding nebula.
+
+**Characters:**
+- **Sun Wukong:** Recovering from his injuries, grappling with guilt and loss.
+- **Guanyin Bodhisattva (The Architect):** Provides healing and a new mission.
+- **The Missing Pilgrims (Tang Seng, Zhu Bajie, Sha Seng):** Mentioned as lost in a spatial vortex.
+
+**Plot Summary:**
+Wukong wakes up in Guanyin’s orbital station, fully healed but devastated by his defeat. He admits to underestimating Red Boy. When he tries to locate his companions, he finds only silence. Guanyin reveals that Red Boy’s final attack created a "Samadhi vortex"—a chaotic wormhole that scattered the other pilgrims across the multiverse. Guanyin refuses to give Wukong their exact locations, explaining that the vortex was non-deterministic. Instead, she tasks him with a new journey of discovery. She gives him a **Resonance Tracker** tuned to the Master’s soul-code and sends him out into the unexplored sectors of the galaxy to find his brothers and begin a new chapter of his legend.
+
+**Key Themes:**
+- Dealing with failure and guilt.
+- The transition from a structured mission to an uncertain quest.
+- The vastness and unpredictability of the multiverse.
