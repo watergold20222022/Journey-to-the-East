@@ -120,3 +120,20 @@ Struggling with hunger, Bajie is approached by Alice, a fox-woman who offers him
 - Integrity in the face of desperation.
 - The contrast between divine origin and mundane struggle.
 - The beginning of a "street-level" survival story.
+
+## Chapter 8: The Legacy of Kara
+
+**Setting:** The Underground Market on **Planet Kara**.
+
+**Characters:**
+- **Zhu Bajie:** Working as a laborer to survive.
+- **Kael:** A reptilian hybrid (lizard-man) who becomes Bajie's friend and informant.
+- **Bear-man, Hyena-man:** Rough laborers in the market.
+
+**Plot Summary:**
+Bajie wakes from a nightmare of the battle with Red Boy to find three intimidating beast-men standing over him. They recruit him for heavy labor—moving unstable power cells. Through this work, Bajie earns food and credits and befriends Kael, a lizard-man. Kael reveals the history of the planet: Kara was once a human genetic research facility (Laboratory 09). A thousand years ago, the hybrids revolted, drove out the humans, and took over. This history is why humans are viewed as the "Original Enemy" and hunted on sight. Bajie realizes the danger his Master is in if he is on this planet.
+
+**Key Themes:**
+- The weight of history and generational trauma.
+- Survival through manual labor.
+- The origin story of a post-human world.
