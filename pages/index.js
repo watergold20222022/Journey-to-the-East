@@ -106,7 +106,7 @@ export default function Home({ initialChapters }) {
           color: #00ffff;
           background: 
             linear-gradient(rgba(10, 10, 26, 0.85), rgba(10, 10, 26, 0.85)),
-            url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=2000');
+            url('/background.png');
           background-size: cover;
           background-attachment: fixed;
           background-position: center;
