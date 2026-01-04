@@ -78,6 +78,13 @@ This is a Next.js 14 application that renders markdown content from the `chapter
 - Convert markdown to HTML using remark: `await remark().use(html).process(content)`
 - Sort chapters by numeric prefix if present using regex: `parseInt(slug.match(/^\d+/)?.[0])`
 
+### Writing Guidelines
+- All chapters must be written in English
+- Each chapter should be between 5,000 to 10,000 words
+- Use markdown formatting for headers (#, ##, ###) to structure content
+- Maintain consistent narrative voice and style throughout the novel
+- Include proper paragraphs with blank lines between them for readability
+
 ### Styling
 - Use CSS-in-JS with styled-jsx for component styles
 - Use `className` for CSS classes (not `class`)
