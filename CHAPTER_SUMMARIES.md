@@ -71,3 +71,20 @@ Feeling lost, Wukong visits his old friends, the Bull Demon King and Princess Ir
 - Shared grief and reconciliation.
 - The search for knowledge in a vast universe.
 - The transition from individual power to technological assistance.
+
+## Chapter 5: The Neutron Trial
+
+**Setting:** Planet Kunlun (a crystalline archive and rogue world) and its high-gravity core.
+
+**Characters:**
+- **Sun Wukong:** Seeking answers but finding only riddles.
+- **Nuwa (The Mother of Creation):** A cosmic architect who plays with "colored stones" (data-spheres).
+- **Corrupted Echoes:** Security monsters in the planet's core.
+
+**Plot Summary:**
+Wukong arrives at Planet Kunlun and meets Nuwa, the creator goddess. She agrees to help him find Tang Seng but requires a "Neutron Gem" from the planet's core to power the search. Wukong descends into the high-gravity core, defeats the "Corrupted Echoes," and retrieves the gem. Upon receiving the stone, Nuwa gives him a cryptic revelation: to find the Master, he must first find his "original self" (初心). She then disappears, leaving Wukong in a state of profound confusion. He decides to remain on Kunlun to reflect on his identity and the meaning of her words.
+
+**Key Themes:**
+- Identity and the "mask" of the hero.
+- The cost of knowledge.
+- Philosophical introspection in a high-tech world.
