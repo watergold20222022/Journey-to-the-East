@@ -104,3 +104,19 @@ Zhu Bajie wakes up in a high-tech city's sewer system. After cleaning himself, h
 - The irony of beauty and monstrosity.
 - Survival in a world where the "normal" is alien.
 - The loss of power and reliance on wit.
+
+## Chapter 7: The Fox and the Market
+
+**Setting:** The lower sectors of the beast-man city and the **Underground Market** in Sector 4.
+
+**Characters:**
+- **Zhu Bajie:** Hungry, weary, and maintaining his moral compass.
+- **Alice:** A fox-woman thief and talent scout for the city's criminal underworld.
+
+**Plot Summary:**
+Struggling with hunger, Bajie is approached by Alice, a fox-woman who offers him a nutrient bar. Alice reveals she is a thief looking for "muscle" for a corporate heist. Despite his desperation, Bajie refuses to participate in criminal activities, asserting his identity as a disciple of the Master. Alice attempts to threaten him but backs down when she senses his latent divine power. She directs him to the Underground Market, where he can find honest, albeit menial, work. Bajie arrives at the market, finds a corner to rest, and falls asleep while reminiscing about the battle with Red Boy.
+
+**Key Themes:**
+- Integrity in the face of desperation.
+- The contrast between divine origin and mundane struggle.
+- The beginning of a "street-level" survival story.
