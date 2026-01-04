@@ -84,6 +84,10 @@ This is a Next.js 14 application that renders markdown content from the `chapter
 - Use markdown formatting for headers (#, ##, ###) to structure content
 - Maintain consistent narrative voice and style throughout the novel
 - Include proper paragraphs with blank lines between them for readability
+- Adapt characters from Chinese classical novels but do not follow original plotlines
+- Write from an American/Western perspective and cater to Western readers' preferences
+- Incorporate Western storytelling elements, themes, and narrative structures
+- Reimagine classic characters through a contemporary Western cultural lens
 
 ### Styling
 - Use CSS-in-JS with styled-jsx for component styles
