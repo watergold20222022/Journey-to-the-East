@@ -223,3 +223,21 @@ While on patrol in the desolate Badlands, Bajie, Alice, and Tybalt encounter a t
 - Man vs. Machine.
 - The value of experience over technology.
 - Echoes of the past in new faces.
+
+## Chapter 14: The Silicon Legion
+
+**Setting:** Planetary Defense Headquarters (Labs and War Room).
+
+**Characters:**
+- **Zhu Bajie:** Captain, leader of the infiltration team.
+- **Alice:** Strategist behind the "Trojan Horse" plan.
+- **Tybalt:** Reluctant hero.
+- **General Rakafa:** Authorizes the suicide mission.
+
+**Plot Summary:**
+Scientists reverse-engineer the captured drones and discover a terrifying truth: the invading fleet is unmanned. It is a "Silicon Legion," a fully automated AI army with no human crew, intent on wiping out the Beast-Men. The Beast-Man Council is paralyzed by indecision, arguing between futile defense and suicidal offense. Alice proposes a daring plan: use the IFF transponder from a destroyed drone to disguise a shuttle and infiltrate the enemy fleet. Bajie supports the plan, convincing General Rakafa that it is their only chance. Rakafa dismisses the squabbling council and authorizes the mission, providing a prototype stealth shuttle for Bajie, Alice, and Tybalt to pilot into the heart of the enemy armada.
+
+**Key Themes:**
+- The threat of unfeeling technology.
+- Desperate times call for desperate measures.
+- Leadership in the face of bureaucracy.
