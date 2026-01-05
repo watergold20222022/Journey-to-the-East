@@ -137,3 +137,20 @@ Bajie wakes from a nightmare of the battle with Red Boy to find three intimidati
 - The weight of history and generational trauma.
 - Survival through manual labor.
 - The origin story of a post-human world.
+
+## Chapter 9: The Betrayal of the Tiger
+
+**Setting:** A hidden **Temple of the Merciful Observer** (Guanyin) in the Underground Market.
+
+**Characters:**
+- **Zhu Bajie:** Discovers the temple and saves Alice.
+- **Alice:** Betrayed and wounded by her partner.
+- **Tybalt (Tiger-Man):** Alice's former partner who betrayed her for the loot.
+
+**Plot Summary:**
+Bajie discovers a dilapidated temple dedicated to Guanyin (The Merciful Observer) in the Underground Market. Surprised to find faith in this hostile world, he prays for his Master's location but receives no answer. He finds Alice wounded in the temple shadows. She reveals that her partner, a Tiger-Man named **Tybalt**, betrayed her during their heist, stealing the loot and leaving her to be killed by security. Bajie rescues her, carrying her to safety with the help of his friend Kael. This act of kindness cements a bond of friendship between the former heavenly marshal and the street-smart thief.
+
+**Key Themes:**
+- Faith in unexpected places.
+- Betrayal vs. Loyalty.
+- The formation of a new alliance.
