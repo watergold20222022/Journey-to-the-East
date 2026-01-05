@@ -205,3 +205,21 @@ The Beast-Man planet is thrown into chaos when the Planetary Defense Headquarter
 - The trauma of the created vs. the creator.
 - War as a unifying force.
 - The calm before the storm.
+
+## Chapter 13: The Alien Vanguard
+
+**Setting:** The Badlands and Planetary Defense Headquarters.
+
+**Characters:**
+- **Zhu Bajie:** Promoted to Captain of Special Operations.
+- **Alice:** Lieutenant, Scout Specialist.
+- **Tybalt:** Lieutenant, CQC Specialist.
+- **General Rakafa:** Minister of Defense, a Minotaur.
+
+**Plot Summary:**
+While on patrol in the desolate Badlands, Bajie, Alice, and Tybalt encounter a trio of advanced, liquid-metal combat drones—the vanguard of the invading human fleet. The drones possess superior technology, including adaptive shields, but Bajie uses his combat experience and brute force to destroy them, proving that the "Creators" are not invincible. Their victory earns them a summons to the Planetary Defense Headquarters. There, they meet General Rakafa, a formidable Minotaur who reminds Bajie of his old sworn brother, the Bull Demon King. Impressed by their performance, Rakafa promotes Bajie to Captain and puts him in charge of a new Special Operations Unit tasked with hunting down the invaders.
+
+**Key Themes:**
+- Man vs. Machine.
+- The value of experience over technology.
+- Echoes of the past in new faces.
