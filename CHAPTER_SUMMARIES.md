@@ -154,3 +154,20 @@ Bajie discovers a dilapidated temple dedicated to Guanyin (The Merciful Observer
 - Faith in unexpected places.
 - Betrayal vs. Loyalty.
 - The formation of a new alliance.
+
+## Chapter 10: The Book of the Ancients
+
+**Setting:** Tybalt's luxury safe-house and the streets of the mid-levels.
+
+**Characters:**
+- **Zhu Bajie:** Seeking answers about his reality.
+- **Alice:** Seeking revenge and credits.
+- **Tybalt (Tiger-Man):** Defeated and desperate, offering information to save his life.
+
+**Plot Summary:**
+Bajie and Alice track down Tybalt, the traitorous Tiger-Man. After a brief fight, they defeat him, but the stolen credits are gone. To save his life, Tybalt reveals a secret: he recognizes Bajie from an ancient human book kept in the **Genetic Archive** called *Journey to the West*. Bajie is shocked to find his own story recorded as "mythology" on this alien world. He demands Tybalt help him steal the book, believing it to be a link to his past and potentially a clue to finding his lost companions. Tybalt agrees, asking for time to prepare. Alice is skeptical but supports Bajie.
+
+**Key Themes:**
+- The intersection of myth and reality.
+- The power of stories to connect worlds.
+- Mercy in exchange for hope.
