@@ -28,9 +28,16 @@ export default async function handler(req, res) {
             // Use gray-matter to parse the post metadata section
             const matterResult = matter(fileContents);
 
+            // Generate title from filename
+            const title = slug
+              .replace(/^\d+-/, '') // Remove leading numbers and hyphen
+              .split('-')
+              .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+              .join(' ');
+
             return {
               slug,
-              title: matterResult.data.title || slug,
+              title: title,
             };
           })
           .sort((a, b) => {
