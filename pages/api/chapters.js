@@ -30,7 +30,6 @@ export default async function handler(req, res) {
 
             // Generate title from filename
             const title = slug
-              .replace(/^\d+-/, '') // Remove leading numbers and hyphen
               .split('-')
               .map(word => word.charAt(0).toUpperCase() + word.slice(1))
               .join(' ');
