@@ -294,3 +294,20 @@ Bajie uses the Master's diary to trigger a spiritual resonance scan. To everyone
 - The limitations of power vs. the power of persistence.
 - Community and shared burden.
 - Faith as a source of resilience.
+
+## Chapter 18: The Golden Staff
+
+**Setting:** The Engineering Bay, The Badlands, and the 10,000-meter deep shaft.
+
+**Characters:**
+- **Zhu Bajie:** Leads the descent and identifies the artifact.
+- **Alice:** Conceives the "Orbital Drill" plan.
+- **Rakafa:** Authorizes the use of the human fleet's weaponry.
+
+**Plot Summary:**
+With conventional drilling impossible, Alice proposes a radical solution: use the captured human fleet's orbital lasers to burn a hole through the planet's crust. The plan is executed, creating a 10,000-meter deep shaft fused into glass. Bajie descends into the hole to investigate the source of the signal. At the bottom, he finds an object that withstood the bombardment: Sun Wukong's legendary weapon, the *Ruyi Jingu Bang* (Golden Hoop Rod). The discovery of the Monkey King's weapon buried deep within the Beast-Man planet is a shocking mystery, suggesting Wukong's presence or influence in the planet's distant past.
+
+**Key Themes:**
+- Innovation through destruction.
+- The enduring legacy of the Monkey King.
+- Mysteries buried in time.
