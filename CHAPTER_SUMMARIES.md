@@ -259,3 +259,20 @@ Bajie's team successfully infiltrates the AI Command Carrier, but the fleet's Su
 - Divine origin vs. scientific engineering.
 - The lone hero's burden.
 - Victory through identity.
+
+## Chapter 16: The Resonance of Souls
+
+**Setting:** The high-tech upper districts of the Beast-Man Metropolis and Defense Headquarters.
+
+**Characters:**
+- **Zhu Bajie:** A planetary hero focusing on his original mission.
+- **Alice:** Proposes the scientific search for the other pilgrims.
+- **General Rakafa:** Provides full institutional support for the search.
+
+**Plot Summary:**
+Despite being hailed as a superstar on Planet Kara, Zhu Bajie remains focused on his goal: finding Tang Seng, Sun Wukong, and Sha Seng. He shares his story and the existence of the Master's diary with Alice. Alice realizes that the captured AI fleet's advanced sensor technology can be repurposed to scan for the "soul-codes" or spiritual frequencies of his companions. Bajie requests the formation of a special research task force from General Rakafa. Rakafa, recognizing the potential value of finding such powerful beings, gives the mission "Level Zero" priority, providing unlimited resources to locate the lost fellowship across the stars.
+
+**Key Themes:**
+- Resisting the temptations of fame.
+- The synergy of spirituality and technology.
+- The beginning of a cosmic-scale search.
