@@ -276,3 +276,21 @@ Despite being hailed as a superstar on Planet Kara, Zhu Bajie remains focused on
 - Resisting the temptations of fame.
 - The synergy of spirituality and technology.
 - The beginning of a cosmic-scale search.
+
+## Chapter 17: The Pulse of the Planet
+
+**Setting:** The Central Laboratory and the Temple of Guanyin.
+
+**Characters:**
+- **Zhu Bajie:** Disheartened by technological limitations but bolstered by friendship.
+- **Alice:** The driving force behind the engineering solution.
+- **Rakafa:** Pledges the planet's resources to build the impossible.
+- **Simon:** A blind Mole-Man psychic researcher.
+
+**Plot Summary:**
+Bajie uses the Master's diary to trigger a spiritual resonance scan. To everyone's shock, the signal comes not from space, but from the deep core of Planet Kara. A "Core Drilling Team" is proposed to investigate, but Rakafa reveals that the Beast-Men lack the technology to survive the core's immense pressure. Building a vessel will take months or years. Bajie, feeling defeated and impatient, retreats to the humble Temple of Guanyin in the lower levels to pray for guidance. He is followed by Alice, Rakafa, and Tybalt, who promise to mobilize the entire planet's resources to build the drill, reassuring Bajie that he is not alone in his quest.
+
+**Key Themes:**
+- The limitations of power vs. the power of persistence.
+- Community and shared burden.
+- Faith as a source of resilience.
