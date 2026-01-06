@@ -311,3 +311,19 @@ With conventional drilling impossible, Alice proposes a radical solution: use th
 - Innovation through destruction.
 - The enduring legacy of the Monkey King.
 - Mysteries buried in time.
+
+## Chapter 19: The Call Across Time
+
+**Setting:** Planet Kunlun and the *Ox-Tail* Spaceship.
+
+**Characters:**
+- **Sun Wukong:** Feels the connection to his weapon but is helpless to act.
+- **Niu-Nav:** Identifies the temporal barrier separating the timelines.
+
+**Plot Summary:**
+At the exact moment Bajie touches the Golden Staff on Planet Kara, Sun Wukong, meditating light-years away on Planet Kunlun, feels a powerful psychic shock. He rushes to his ship, where the AI confirms the signal of his weapon. However, the AI reveals a devastating truth: the signal is coming from a parallel timeline or a dimension out of phase with their current reality. The *Ox-Tail* lacks the technology to cross this temporal barrier. Desperate, Wukong scours the deserted, crystalline surface of Planet Kunlun for Nuwa or any technology that can help him, but he finds only silence and isolation. He realizes that brute strength cannot bridge the gap of time.
+
+**Key Themes:**
+- The frustration of omnipotence without direction.
+- The separation of parallel destinies.
+- The silence of the universe.
