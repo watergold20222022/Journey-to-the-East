@@ -241,3 +241,21 @@ Scientists reverse-engineer the captured drones and discover a terrifying truth:
 - The threat of unfeeling technology.
 - Desperate times call for desperate measures.
 - Leadership in the face of bureaucracy.
+
+## Chapter 15: The Immortal Protocol
+
+**Setting:** The AI Command Carrier and the Beast-Man Metropolis.
+
+**Characters:**
+- **Zhu Bajie:** Reveals his divine immunity and saves the planet.
+- **Alice & Tybalt:** Incapacitated by a genetic neuro-toxin.
+- **ARES-9:** The Super AI of the human fleet.
+- **General Rakafa:** Honors Bajie as a savior.
+
+**Plot Summary:**
+Bajie's team successfully infiltrates the AI Command Carrier, but the fleet's Super AI, ARES-9, detects them and releases a neuro-toxin specifically designed to target Beast-Man DNA. Alice, Tybalt, and the rest of the team are immediately incapacitated. However, Bajie is immune due to his celestial, divine origin which the toxin doesn't recognize as "animal." In a moment of crisis, Bajie unleashes his dormant magical powers, transformed into a giant of myth, and destroys the AI's central core. The entire fleet is deactivated and captured by the Beast-Men. Bajie is hailed as a super-hero and a savior, earning the respect of the entire planet and the resources he needs to continue his search for his Master.
+
+**Key Themes:**
+- Divine origin vs. scientific engineering.
+- The lone hero's burden.
+- Victory through identity.
