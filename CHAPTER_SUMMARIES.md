@@ -327,3 +327,21 @@ At the exact moment Bajie touches the Golden Staff on Planet Kara, Sun Wukong, m
 - The frustration of omnipotence without direction.
 - The separation of parallel destinies.
 - The silence of the universe.
+
+## Chapter 20: The Road to Kunlun
+
+**Setting:** Planetary Defense Headquarters and the Orbital Shipyard.
+
+**Characters:**
+- **Zhu Bajie:** Prepares for the interstellar journey to find Wukong.
+- **Alice:** Coordinates the integration of human and Beast-Man technology.
+- **ARES-9:** The repurposed Super AI, now assisting the mission.
+- **General Rakafa:** Oversees the massive industrial effort.
+
+**Plot Summary:**
+Using the resonance from the Golden Staff, Alice and the research team pinpoint Sun Wukong's location to Planet Kunlun, a dangerous rogue planet in the Ninth Sector. Reaching it requires a ship capable of withstanding extreme gravity and radiation. The team begins a massive project to overhaul the captured human flagship, the *Prometheus*. The effort is accelerated by the cooperation of the reprogrammed Super AI, ARES-9, and its legion of robot drones, who now work side-by-side with Beast-Man engineers. Bajie, Alice, and Tybalt prepare to embark on this perilous journey, uniting biological grit with artificial precision to bridge the distance to the Great Sage.
+
+**Key Themes:**
+- Enemies to allies.
+- The fusion of organic and synthetic life.
+- Hope driving industrial miracles.
