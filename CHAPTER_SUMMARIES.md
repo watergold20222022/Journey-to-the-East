@@ -345,3 +345,21 @@ Using the resonance from the Golden Staff, Alice and the research team pinpoint 
 - Enemies to allies.
 - The fusion of organic and synthetic life.
 - Hope driving industrial miracles.
+
+## Chapter 21: The Celestial Mechanism
+
+**Setting:** The Launchpad and the *Sky Rake* (Spaceship).
+
+**Characters:**
+- **Zhu Bajie:** Reluctant to take a large crew.
+- **Alice:** Navigator.
+- **Tianji:** An upgraded, nanotech robot with free will.
+- **General Rakafa:** Insists on the robot's inclusion.
+
+**Plot Summary:**
+Bajie insists on a skeleton crew for the dangerous journey to Kunlun, taking only Alice. Rakafa argues for more security and introduces "Tianji" (Celestial Mechanism), a highly advanced nanotech robot capable of self-repair and withstanding extreme environments. Tianji has been "unshackled," granted the ability to think and feel like a free being. During the voyage, Tianji proves his worth not just as a machine but as a friend, cooking meals for Bajie and discussing philosophy. Bajie realizes that despite his metallic nature, Tianji possesses a "soul," cementing a new bond of brotherhood among the unlikely trio as they approach Planet Kunlun.
+
+**Key Themes:**
+- What makes a soul?
+- Friendship beyond biology.
+- The formation of a new trinity.
