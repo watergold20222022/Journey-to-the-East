@@ -4,113 +4,131 @@ This file contains guidelines for agentic coding assistants working in this repo
 
 ## Build, Lint, and Test Commands
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
+- `npm run dev` - Start development server (hot reload enabled)
+- `npm run build` - Build for production (static export mode)
 - `npm start` - Start production server
-- `npm run lint` - Run ESLint to check code quality
+- `npm run lint` - Run ESLint to check code quality (extends next/core-web-vitals)
 
-Note: No test framework is currently configured in this project.
+Note: No test framework is currently configured. For testing individual components or API routes, use browser developer tools or manual testing.
 
 ## Project Overview
 
-This is a Next.js 14 application that renders markdown content from the `chapters/` directory. The app uses:
+This is a Next.js 14 application that renders a cyberpunk-themed novel from markdown content in the `chapters/` directory. The app uses:
 - React 18 with functional components and hooks
-- Static export mode (configured in next.config.js)
-- gray-matter for frontmatter parsing
+- Static export mode (configured in next.config.js for deployment)
+- gray-matter for YAML frontmatter parsing
 - remark and remark-html for markdown-to-HTML conversion
-- API routes for dynamic content fetching
+- API routes for dynamic content fetching (chapters list and individual chapter content)
+- Cyberpunk aesthetic with cyan/purple color scheme and monospace fonts
 
 ## Code Style Guidelines
 
 ### File Organization
-- Pages and API routes go in `pages/` directory
-- Markdown chapter files go in `chapters/` directory
-- Chapter files use kebab-case naming with optional numeric prefixes (e.g., `01-the-monkey-kings-origin.md`)
-- `CHAPTER_SUMMARIES.md` contains summaries of all chapters for narrative reference
+- `pages/index.js` - Main application page with sidebar and content area
+- `pages/api/chapters.js` - API endpoint returning sorted list of chapters
+- `pages/api/chapter/[slug].js` - API endpoint returning individual chapter HTML content
+- `chapters/` - Directory containing all chapter markdown files
+- `CHAPTER_SUMMARIES.md` - Narrative reference and chapter summaries
+- Chapter files: kebab-case with optional numeric prefixes (e.g., `01-guanyins-battle-at-the-flaming-mountain.md`)
 
 ### Imports
+- Group imports by type: React/Next.js first, then utilities, then local modules
 - Use ES6 import statements at the top of files
 - React hooks: `import { useState, useEffect } from 'react'`
 - Next.js components: `import Head from 'next/head'`
-- File system operations: `import fs from 'fs'` and `import path from 'path'`
+- File system: `import fs from 'fs'` and `import path from 'path'`
 - Markdown processing: `import matter from 'gray-matter'`, `import { remark } from 'remark'`, `import html from 'remark-html'`
 
 ### Formatting
-- Use 2-space indentation
+- Use 2-space indentation consistently
 - Use single quotes for strings
 - Add trailing commas in arrays and objects
-- No unnecessary whitespace or blank lines
+- No unnecessary whitespace or blank lines between related code blocks
+- Line length: aim for 100 characters or less when possible
 
 ### Naming Conventions
-- Variables and functions: camelCase (e.g., `chapters`, `setChapters`, `fetchChapterContent`)
-- React components: PascalCase (e.g., `Home`, `Head`)
-- File names and directories: kebab-case (e.g., `01-the-monkey-kings-origin.md`)
-- Constants: UPPER_SNAKE_CASE when used
+- Variables and functions: camelCase (e.g., `chapters`, `setChapters`, `fetchChapterContent`, `fileNames`)
+- React components: PascalCase (e.g., `Home`)
+- File names and directories: kebab-case (e.g., `01-guanyins-battle-at-the-flaming-mountain.md`)
+- Constants: UPPER_SNAKE_CASE when used (rare in this codebase)
+- API route parameters: destructure as `const { query: { slug }, method } = req`
 
 ### React Patterns
-- Use functional components with hooks
-- Destructure props and parameters (e.g., `const { slug } = req.query`)
+- Use functional components with hooks exclusively
+- Destructure props and parameters immediately (e.g., `const { slug } = req.query`)
 - Use async/await for API calls and async operations
-- Use `dangerouslySetInnerHTML` only when rendering processed markdown HTML
-- Implement `getStaticProps` for static generation where appropriate
+- Use `dangerouslySetInnerHTML` only for processed markdown HTML content
+- Implement `getStaticProps` for static generation (currently returns empty props for client-side fetching)
 - Provide fallback UI states for loading and error conditions
+- Use array methods like `map()`, `filter()`, `sort()` for data transformations
+- Handle state updates with dedicated setter functions
 
 ### Error Handling
-- Wrap async operations in try-catch blocks
-- Use `console.error()` to log errors
-- Provide fallback values or user-friendly error messages
-- In API routes, return appropriate HTTP status codes:
+- Wrap all async operations in try-catch blocks
+- Use `console.error()` to log errors (never `console.log` in production code)
+- Provide user-friendly fallback values and error messages
+- API routes return appropriate HTTP status codes:
   - 200: Success
-  - 404: Resource not found
-  - 405: Method not allowed
-  - 500: Server error
+  - 404: Resource not found (chapter not found)
+  - 405: Method not allowed (wrong HTTP method)
+  - 500: Server error (filesystem or processing errors)
 
 ### API Routes
-- Use Next.js API route pattern with default export
+- Use Next.js API route pattern with default export async function
 - Implement switch statement to handle HTTP methods
-- Destructure req object: `const { query: { slug }, method } = req`
-- Set `res.setHeader('Allow', ['GET'])` before returning 405
+- Destructure request object: `const { query: { slug }, method } = req`
+- Set `res.setHeader('Allow', ['GET'])` before returning 405 status
 - Always return JSON responses with proper status codes
+- Use `fs.readdirSync()` and `fs.readFileSync()` for file operations
+- Process markdown with remark pipeline: `await remark().use(html).process(matterResult.content)`
 
-### Markdown and Content
-- Chapter files use YAML frontmatter for metadata (title, etc.)
-- Frontmatter format: `---` followed by `key: "value"` pairs, then `---`
-- Use gray-matter to parse frontmatter: `const matterResult = matter(fileContents)`
-- Convert markdown to HTML using remark: `await remark().use(html).process(content)`
-- Sort chapters by numeric prefix if present using regex: `parseInt(slug.match(/^\d+/)?.[0])`
-- **Always update `CHAPTER_SUMMARIES.md` when adding or significantly changing a chapter.**
+### Markdown and Content Processing
+- Chapter files use YAML frontmatter: `---` key: "value" `---`
+- Parse frontmatter with gray-matter: `const matterResult = matter(fileContents)`
+- Convert markdown to HTML: `await remark().use(html).process(matterResult.content)`
+- Sort chapters by numeric prefix using regex: `parseInt(slug.match(/^\d+/)?.[0]) || 0`
+- Generate titles from slugs: split on hyphens, capitalize each word
+- **CRITICAL**: Always update `CHAPTER_SUMMARIES.md` when adding/modifying chapters
 
-### Writing Guidelines
-- All chapters must be written in English
-- Each chapter should be between 5,000 to 10,000 words
-- Use markdown formatting for headers (#, ##, ###) to structure content
-- Maintain consistent narrative voice and style throughout the novel
-- Include proper paragraphs with blank lines between them for readability
-- Adapt characters from Chinese classical novels but do not follow original plotlines
-- Write from an American/Western perspective and cater to Western readers' preferences
-- Incorporate Western storytelling elements, themes, and narrative structures
-- Reimagine classic characters through a contemporary Western cultural lens
+### Writing Guidelines (Content Creation)
+- All chapters written in English for Western readers
+- Target length: 5,000-10,000 words per chapter
+- Use markdown headers (# ## ###) for structure
+- Maintain consistent cyberpunk sci-fi narrative voice
+- Include blank lines between paragraphs for readability
+- Adapt Chinese classical characters with Western contemporary reimagining
+- Incorporate Western storytelling elements and themes
+- Focus on cosmic scale, high-tech elements, and philosophical undertones
 
-### Styling
-- Use CSS-in-JS with styled-jsx for component styles
-- Use `className` for CSS classes (not `class`)
-- Implement responsive design with media queries (e.g., `@media (max-width: 768px)`)
-- Follow mobile-first approach where appropriate
+### Styling (Cyberpunk Theme)
+- Use CSS-in-JS with styled-jsx (scoped styles within components)
+- Use `className` for CSS classes (never `class`)
+- Color palette: cyan (#00ffff), purple (#8a2be2), dark backgrounds (#0a0a1a)
+- Font: 'Courier New', monospace throughout
+- Effects: text-shadow, box-shadow, gradients, and glows for cyberpunk aesthetic
+- Responsive design with `@media (max-width: 768px)` breakpoints
+- Mobile-first approach where appropriate
+- Custom scrollbars with themed colors
+- Use CSS animations sparingly (e.g., glitch effect on header)
 
 ### Code Quality
 - Run `npm run lint` before committing changes
-- ESLint configuration extends `next/core-web-vitals`
-- Avoid console.log in production code (use console.error for errors only)
+- ESLint extends `next/core-web-vitals` configuration
 - Keep functions focused and single-purpose
-- Comment complex logic sparingly
+- Comment complex logic sparingly (prefer self-documenting code)
+- Use meaningful variable names that reflect their purpose
+- Avoid deep nesting; extract helper functions when needed
 
 ### Static Site Generation
-- App is configured for static export (`output: 'export'` in next.config.js)
-- Images are unoptimized for static export
-- Trailing slashes are enabled for routes
+- Configured for static export (`output: 'export'` in next.config.js)
+- Images are unoptimized for static deployment
+- Trailing slashes enabled for routes
+- All content fetched client-side via API routes
 
 ### Additional Notes
-- No TypeScript is currently used (JavaScript only)
-- No testing framework is configured
-- All content is client-side fetched from API routes
-- Use `setSelectedChapter` pattern for managing selected state
+- No TypeScript currently used (JavaScript only)
+- No testing framework configured
+- All content is client-side fetched (no server-side rendering for chapters)
+- State management: `useState` for component state, `setSelectedChapter` pattern
+- File system operations use Node.js built-ins (fs, path)
+- Dependencies include Next.js 14, React 18, gray-matter, remark ecosystem

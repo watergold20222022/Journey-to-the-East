@@ -1,0 +1,206 @@
+# Journey to the East - LLMs.txt
+
+## Project Overview
+This is a Next.js 14 web application that renders a cyberpunk-themed novel adaptation of the classic Chinese "Journey to the West" story. The app displays markdown chapters in a cyberpunk aesthetic with cyan/purple color scheme and monospace fonts.
+
+**Purpose**: Modern reimagining of classical Chinese literature for Western readers, combining cosmic sci-fi themes with traditional character archetypes.
+
+## Technology Stack
+- **Framework**: Next.js 14 (React 18)
+- **Deployment**: Static export mode (`output: 'export'` in next.config.js)
+- **Styling**: CSS-in-JS with styled-jsx (scoped component styles)
+- **Content Processing**:
+  - gray-matter: YAML frontmatter parsing
+  - remark + remark-html: Markdown to HTML conversion
+- **File System**: Node.js fs/path for reading markdown files
+- **Linting**: ESLint (extends next/core-web-vitals)
+
+## Architecture
+**Static Site Generation**: App builds to static files for deployment
+**Client-Side Data Fetching**: All content loaded via API routes
+**No SSR**: Content fetched dynamically in browser
+**Single Page App**: React state manages chapter selection and display
+
+## Key Files Structure
+
+### Pages & API Routes
+```
+pages/
+├── index.js                 # Main app component with sidebar + content
+├── api/
+│   ├── chapters.js          # GET /api/chapters - returns sorted chapter list
+│   └── chapter/[slug].js    # GET /api/chapter/[slug] - returns chapter HTML
+```
+
+### Content Structure
+```
+chapters/                    # Markdown chapter files
+├── 01-guanyins-battle-at-the-flaming-mountain.md
+├── 02-the-shadow-of-the-great-sage.md
+└── ...
+
+CHAPTER_SUMMARIES.md         # Narrative reference and chapter summaries
+```
+
+### Configuration
+```
+next.config.js              # Static export config + image settings
+.eslintrc.json              # ESLint config (extends next/core-web-vitals)
+package.json                # Dependencies and scripts
+```
+
+## Code Patterns & Conventions
+
+### React Components
+- **Functional components only** (no class components)
+- **Hooks**: useState, useEffect for state management
+- **Props**: Destructure immediately (`const { slug } = req.query`)
+- **Async operations**: Always use async/await
+- **Styling**: CSS-in-JS with `<style jsx global>`
+
+### API Routes Pattern
+```javascript
+export default async function handler(req, res) {
+  const { query: { slug }, method } = req;
+
+  switch (method) {
+    case 'GET':
+      try {
+        // Implementation
+        res.status(200).json({ data });
+      } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ error: 'Server error' });
+      }
+      break;
+    default:
+      res.setHeader('Allow', ['GET']);
+      res.status(405).end(`Method ${method} Not Allowed`);
+  }
+}
+```
+
+### File Naming
+- **Directories**: kebab-case (e.g., `api-routes`)
+- **Files**: kebab-case with optional numeric prefix (e.g., `01-chapter-name.md`)
+- **Variables**: camelCase (e.g., `selectedChapter`, `fetchChapterContent`)
+- **Components**: PascalCase (e.g., `Home`)
+
+### Markdown Chapter Format
+```markdown
+---
+title: "Chapter Title"
+---
+
+# Chapter Title
+
+Content here...
+
+## Subsection
+
+More content...
+```
+
+## Content Guidelines
+
+### Chapter Structure
+- **Length**: 5,000-10,000 words per chapter
+- **Format**: Standard markdown with headers (# ## ###)
+- **Voice**: Cyberpunk sci-fi narrative
+- **Theme**: Cosmic scale, high-tech elements, philosophical undertones
+- **Characters**: Western reimagining of Chinese classical figures
+
+### Frontmatter
+- Required: `title` field
+- Optional: Additional metadata as needed
+- Parsed with: `const matterResult = matter(fileContents)`
+
+## Styling System
+
+### Color Palette
+- **Primary**: Cyan (#00ffff) - text, borders, glows
+- **Secondary**: Purple (#8a2be2) - accents, secondary elements
+- **Background**: Dark (#0a0a1a) - main background
+- **Text**: Light gray (#e0e0e0) - content text
+
+### Typography
+- **Font**: 'Courier New', monospace (cyberpunk aesthetic)
+- **Effects**: text-shadow, box-shadow, gradients, glows
+- **Animations**: Minimal, used for glitch effects
+
+### Layout
+- **Sidebar**: 280px width, cyberpunk-themed
+- **Content**: Flex layout, responsive design
+- **Mobile**: Column layout on small screens
+
+## Build & Deployment
+
+### Commands
+```bash
+npm run dev      # Development server with hot reload
+npm run build    # Production build (static export)
+npm start        # Serve production build
+npm run lint     # ESLint code quality check
+```
+
+### Deployment Notes
+- **Static export**: All files generated at build time
+- **No server**: Pure static hosting possible
+- **API routes**: Become static JSON files in `/api/` directory
+- **Images**: Unoptimized (no Next.js Image component)
+
+## Important Rules for AI Assistants
+
+### Content Creation
+- **Always update CHAPTER_SUMMARIES.md** when adding/modifying chapters
+- **Maintain cyberpunk sci-fi voice** throughout content
+- **Follow word count guidelines** (5k-10k words/chapter)
+- **Use Western storytelling** while adapting Chinese characters
+
+### Code Changes
+- **Preserve existing patterns** - match indentation, naming, structure
+- **Use CSS-in-JS styling** - no external CSS files
+- **Follow React hooks patterns** - functional components only
+- **Handle errors properly** - try/catch with console.error, never console.log
+- **Run linting** before commits: `npm run lint`
+
+### File Operations
+- **Chapter files**: Always in `/chapters/` directory
+- **API routes**: Follow established pattern in `/pages/api/`
+- **Static generation**: Content fetched client-side only
+
+## Common Tasks
+
+### Adding New Chapter
+1. Create markdown file in `/chapters/` (e.g., `24-new-chapter.md`)
+2. Add YAML frontmatter with title
+3. Write chapter content (5k-10k words)
+4. Update `CHAPTER_SUMMARIES.md` with chapter summary
+5. Test via `npm run dev`
+
+### Modifying Styling
+1. Edit `<style jsx global>` blocks in components
+2. Use established color palette (#00ffff, #8a2be2, #0a0a1a)
+3. Maintain cyberpunk aesthetic (glows, gradients, monospace)
+4. Test responsive design
+
+### API Changes
+1. Follow established switch/method pattern
+2. Return appropriate HTTP status codes
+3. Use try/catch error handling
+4. Test endpoints manually or via browser dev tools
+
+## Dependencies to Understand
+- **Next.js 14**: App directory structure, static export, API routes
+- **React 18**: Functional components, hooks, JSX
+- **gray-matter**: YAML frontmatter parsing
+- **remark**: Markdown processing pipeline
+- **styled-jsx**: CSS-in-JS for component styling
+
+## Project Status
+- **Language**: JavaScript only (no TypeScript)
+- **Testing**: No test framework configured
+- **State Management**: React useState only
+- **Routing**: File-based routing (pages directory)
+- **Data Flow**: Client-side fetching from API routes</content>
+<parameter name="filePath">LLMs.txt
