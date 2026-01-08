@@ -363,3 +363,21 @@ Bajie insists on a skeleton crew for the dangerous journey to Kunlun, taking onl
 - What makes a soul?
 - Friendship beyond biology.
 - The formation of a new trinity.
+
+## Chapter 22: The Invisible Barrier
+
+**Setting:** The *Sky Rake* spaceship and the surface of Planet Kunlun.
+
+**Characters:**
+- **Zhu Bajie:** The determined leader, searching for his brother.
+- **Alice:** Navigator and voice of reason.
+- **Tianji:** The adaptable robot who showcases complex problem-solving.
+- **Sun Wukong (Referenced):** Physically absent but his presence is felt.
+
+**Plot Summary:**
+The journey to Planet Kunlun is perilous, fraught with technical failures that threaten the *Sky Rake*. However, Tianji displays extraordinary capability, using his nanobots to repair shield failures and engine breaches instantly, earning Bajie's grudging respect. Upon landing on the beautiful, crystal world of Kunlun, the resonance from the Master's diary (a proxy for the Golden Staff) leads them directly to Wukong's signal. However, upon arrival at the coordinates, Wukong is nowhere to be seen. Tianji analyzes the anomaly and determines that Wukong is present but trapped behind a "temporal displacement"—a barrier of time, not space. They are standing in the same place, but slightly out of sync in time. The team resolves to break this invisible barrier using Tianji's advanced computational power to solve the "equation" of his imprisonment.
+
+**Key Themes:**
+- The intersection of physics and metaphysics.
+- Technology as a bridge to the divine.
+- The pain of being so close yet so far.
