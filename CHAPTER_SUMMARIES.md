@@ -435,3 +435,20 @@ Bajie reveals the "gift" he brought from Planet Kara—the Golden Staff he found
 - Identity in the face of infinity.
 - The uniqueness of emotional bonds.
 - Dual-wielding power.
+
+## Chapter 26: The Hollow Heavens
+
+**Setting:** The *Sky Rake* and the Governor's Palace on Planet Kara.
+
+**Characters:**
+- **Sun Wukong:** Impressed by Bajie's growth but deeply disturbed by the theological implications of the multiverse.
+- **Zhu Bajie:** Accepted as a hero on Kara, humbling accepting his brother's praise.
+- **Tianji:** Calculates the impossible odds of finding their specific Master.
+
+**Plot Summary:**
+Realizing that finding their specific version of Tang Seng in an infinite multiverse is statistically impossible without a guide, the team decides to retreat to Planet Kara to regroup. Upon their return, Wukong witnesses the hero's welcome Bajie receives. He is genuinely impressed by how much his "lazy" junior brother has grown, acknowledging him as a true warrior and savior. However, the mood shifts during a quiet moment at night. Wukong confesses a terrifying realization: if the multiverse exists, there must be infinite versions of the Buddha and Guanyin Bodhisattva. This concept of "commodity gods" strips away the sanctity of their previous journey and belief system, leaving Wukong with a chilling sense of emptiness. He wonders if anything—divinity, enlightenment, or purpose—is truly unique.
+
+**Key Themes:**
+- Brotherhood and respect.
+- The crisis of faith in a sci-fi universe.
+- The terrifying scale of infinity.
