@@ -417,3 +417,21 @@ Utilizing the massive computing power of ARES-9 and the Beast-Man fleet, Tianji 
 - The payoff of loyalty.
 - The merging of timelines/destinies.
 - The formation of the complete team (The New Pilgrims).
+
+## Chapter 25: The Twin Iron Rods
+
+**Setting:** The Desolate Planet Kunlun (Timeline B).
+
+**Characters:**
+- **Sun Wukong:** Wields two Golden Staffs, rejecting the nihilism of the multiverse.
+- **Zhu Bajie:** Brings the staff from Planet Kara, initially disheartened by the implications.
+- **Tianji:** Explains the mechanics of the multiverse and divergent timelines.
+- **Alice:** Realizes the scale of Red Boy's attack.
+
+**Plot Summary:**
+Bajie reveals the "gift" he brought from Planet Kara—the Golden Staff he found in the planetary core. Wukong is shocked, as he is already holding his own Golden Staff. The presence of two identical, authentic Divine Iron artifacts confuses the group until Tianji provides an explanation: the Multiverse. They realize that Red Boy's attack scattered them not just across space, but across different branches of reality. Planet Kara exists in a universe where the staff was lost; this Kunlun exists in one where Wukong kept it. The realization that there are infinite versions of themselves and their loved ones causes a moment of existential dread for Bajie. However, Wukong rejects this nihilism. He asserts that their specific bonds, memories, and their specific Master are unique to *them*, and valid regardless of the multiverse configuration. Empowered by this resolve (and now wielding two Golden Staffs), Wukong prepares the team for the next phase of the search.
+
+**Key Themes:**
+- Identity in the face of infinity.
+- The uniqueness of emotional bonds.
+- Dual-wielding power.
