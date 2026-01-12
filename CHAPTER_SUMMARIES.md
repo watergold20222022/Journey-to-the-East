@@ -399,3 +399,21 @@ Sun Wukong, trapped in a desolate, parallel version of Kunlun, senses Bajie's ar
 - The limits of science vs. the limitlessness of connection.
 - Isolation and the human (and superhuman) need for contact.
 - "Digging" through reality itself.
+
+## Chapter 24: The Reunion Across Time
+
+**Setting:** The *Sky Rake* (Timeline A) and the Desolate Planet Kunlun (Timeline B).
+
+**Characters:**
+- **Zhu Bajie:** Finally reunited with his brother.
+- **Sun Wukong:** Found waiting, cynical but deeply relieved.
+- **Alice:** The architect of the bridge.
+- **Tianji:** The power source and stabilized of the vortex.
+
+**Plot Summary:**
+Utilizing the massive computing power of ARES-9 and the Beast-Man fleet, Tianji and Alice activate the "Resonance Amplifier." The device tears a hole in the fabric of the multiverse, creating a stable bridge between the two timelines. Bajie, Alice, and Tianji leap through the vortex, landing in the desolate, grey version of Kunlun where Wukong has been trapped. Guided by the intense vibration of the Master's diary, they track Wukong to a canyon. The reunion is emotional; Bajie breaks down in tears while Wukong masks his relief with his signature snark ("You're late"). Wukong is introduced to Alice and Tianji, accepting this strange new "fellowship" of a human scientist and a soulful robot. The chapter ends with the Monkey King ready to leave his prison and join the fight.
+
+**Key Themes:**
+- The payoff of loyalty.
+- The merging of timelines/destinies.
+- The formation of the complete team (The New Pilgrims).
