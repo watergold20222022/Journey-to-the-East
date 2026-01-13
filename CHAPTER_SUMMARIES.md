@@ -470,3 +470,21 @@ The team's rest is interrupted when General Rakafa reports that the second Golde
 - The intrusion of the supernatural into the scientific world.
 - The thrill of the chase.
 - Mysteries of the frozen north.
+
+## Chapter 28: The Frozen Wasteland
+
+**Setting:** The transition zone to the Northern Wastes of Planet Kara.
+
+**Characters:**
+- **Sun Wukong:** Leads the charge, unfazed by the cold.
+- **Zhu Bajie:** Complains about the conditions but fights bravely.
+- **Alice & Tianji:** Provide tactical support.
+- **Snow Stalkers:** Massive, six-limbed arctic predators.
+
+**Plot Summary:**
+Unable to fly due to atmospheric turbulence, the team proceeds on foot into the frozen Northern Wastes. The environment is brutal, with temperatures dropping below -80°C and a landscape of razor-sharp ice spires. They are ambushed by a pack of "Snow Stalkers"—gigantic six-limbed predators with chitinous armor. A chaotic battle ensues. Alice finds her energy weapons ineffective, but Wukong and Bajie use brute force to subdue the beasts, while Tianji analyzes their weaknesses (vibration sensitivity). Wukong realizes the behavior of the beasts is unnatural; they were acting as guards. Pressing on through the storm without finding the staff, they eventually spot a massive, unnatural structure in the distance: a glowing green pyramid of ice, presumably the thief's lair.
+
+**Key Themes:**
+- Man/Monkey/Pig vs. Nature.
+- The hostility of the unknown.
+- Signs of intelligent design in the wilderness.
