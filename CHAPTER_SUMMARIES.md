@@ -488,3 +488,21 @@ Unable to fly due to atmospheric turbulence, the team proceeds on foot into the 
 - Man/Monkey/Pig vs. Nature.
 - The hostility of the unknown.
 - Signs of intelligent design in the wilderness.
+
+## Chapter 29: The Mutated Guardians
+
+**Setting:** The exterior and entrance of the Green Ice Pyramid (Northern Wastes).
+
+**Characters:**
+- **Sun Wukong:** Uses clones and immense strength to decimate the monster horde.
+- **Zhu Bajie:** Battles the heavy "tank" monsters.
+- **Tianji:** Performs the autopsy and genetic analysis.
+- **Mutated Fauna:** Frost-Winged Shriekers (Owl/Eagle), Tusked Behemoths (Walrus), Shadow Biters (Fox).
+
+**Plot Summary:**
+Wukong "knocks" on the pyramid, triggering a massive defensive response. Hundreds of mutated arctic creatures burst forth to attack the team. A fierce battle ensues. Wukong counters the sonic attacks of the "Frost-Winged Shriekers" and uses his hair-clones to handle the swarming "Shadow Biters." Bajie proves his strength by wrestling the massive, tank-like "Tusked Behemoths." Alice provides covering fire. After the victory, Tianji analyzes the corpses. He discovers that these are not natural demons or engineered cyborgs, but local wildlife whose DNA was rewritten by a "brute force" energy source, causing rapid, painful mutation and accelerated aging. Wukong recognizes this as a form of dark magic (sorcery) used by ancient Demon Kings to create disposable armies. He condemns this "corruption of the Dao" and leads the team into the pyramid to face the master of this twisted creation.
+
+**Key Themes:**
+- The perversion of life for power.
+- Science analyzing Magic.
+- The cruelty of the unseen antagonist.
