@@ -452,3 +452,21 @@ Realizing that finding their specific version of Tang Seng in an infinite multiv
 - Brotherhood and respect.
 - The crisis of faith in a sci-fi universe.
 - The terrifying scale of infinity.
+
+## Chapter 27: The Shadow of the North
+
+**Setting:** Planetary Defense Headquarters (Vault) and the plotting room on Planet Kara.
+
+**Characters:**
+- **Sun Wukong:** Invigorated by a tangible enemy after his philosophical slump.
+- **Zhu Bajie:** Recognizes the strength required to wield the stolen weapon.
+- **Tianji:** Uses seismic data to track the thief.
+- **The Shadow (Antagonist):** A mysterious, super-fast entity with green glowing eyes.
+
+**Plot Summary:**
+The team's rest is interrupted when General Rakafa reports that the second Golden Staff (the one found on Kara) has been stolen from the high-security vault. The theft is impossible for normal biology; the staff weighs 13,500 jin, yet surveillance footage shows a shadowy figure snatching it and moving at subsonic speeds. Wukong analyzes the footage and concludes the thief possesses supernatural or demonic power, not just technology. Tianji tracks the thief's escape route by measuring the seismic impact of his heavy footsteps. The trail leads to the Northern Wastes, a frozen, uninhabitable zone near the planet's pole. Wukong senses a challenge and possibly a trap, but eagerly orders the pursuit, happy to have a physical problem to solve.
+
+**Key Themes:**
+- The intrusion of the supernatural into the scientific world.
+- The thrill of the chase.
+- Mysteries of the frozen north.
