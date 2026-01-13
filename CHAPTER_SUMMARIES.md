@@ -506,3 +506,21 @@ Wukong "knocks" on the pyramid, triggering a massive defensive response. Hundred
 - The perversion of life for power.
 - Science analyzing Magic.
 - The cruelty of the unseen antagonist.
+
+## Chapter 30: The Lost Brother
+
+**Setting:** The central laboratory chamber of the Ice Pyramid.
+
+**Characters:**
+- **Sun Wukong:** Emotionally conflicted, refusing to use lethal force against his brother.
+- **Sha Wujing (Sandy):** Found in a mutated, fanatical state. Indigo skin, red hair, green eyes.
+- **Zhu Bajie:** Intervenes to subdue Sha Seng when Wukong hesitates.
+- **Tianji:** Identifies the mutagen in Sha Seng's system.
+
+**Plot Summary:**
+Penetrating the heart of the pyramid, Wukong finds the stolen Golden Staff suspended in an anti-gravity field. Guarding it is a terrifying figure: Sha Wujing. However, this version of Sha Seng is twisted—skin the color of a bruised glacier, wild red hair, and eyes burning with green madness. When Wukong tries to talk to him, Sha Seng attacks viciously, wielding a plasma-charged Crescent Moon Spade and screaming that Wukong is a demon impostor. Wukong, recognizing his "Little Brother," spends the fight dodging and parrying, unable to bring himself to hurt him. Seeing Wukong in danger, Bajie steps in with a gravity attack, pinning Sha Seng so Alice can restrain him. Even captured, Sha Seng raves about "purging the unclean" and protecting the relic. Tianji confirms he is infected with the same mutagen as the beasts. In a moment of lucidity, Sha Seng warns that "The Bone Lady comes." Wukong realizes the mastermind behind this horror is Baigujing (The White Bone Demon).
+
+**Key Themes:**
+- The tragedy of madness.
+- Brother against Brother.
+- The return of an old feeling nemesis.
