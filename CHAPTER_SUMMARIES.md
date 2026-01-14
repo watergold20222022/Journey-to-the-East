@@ -559,3 +559,21 @@ Leaving Alice to guard the recuperating Sha Seng, the trio (Wukong, Bajie, Tianj
 - Unstoppable momentum.
 - The variety of the undead.
 - Hope driving violence.
+
+## Chapter 33: The White Bone Throne
+
+**Setting:** The Sanctum of Baigujing at the top of the Spire.
+
+**Characters:**
+- **Sun Wukong:** Delivers the final blow, reclaiming the stolen staff.
+- **Zhu Bajie:** Provides diversion and crowd control.
+- **Tianji:** Unleashes "Divine Deconstruction" nanotech, displaying god-like power.
+- **Baigujing:** Defeated, her structural control nullified by technology.
+
+**Plot Summary:**
+The trio breaches the sanctum to find Baigujing seated on a throne of fused skulls, with the stolen Golden Staff and the comatose Master displayed as trophies. She mocks them, revealing her control over the entire bone tower. She animates the room itself, trapping Wukong in crushing walls of rib-cages. Tianji intervenes, activating "Protocol: Divine Deconstruction." He unleashes a swarm of nanobots that don't just break the bone but disassemble it at the atomic level, rewriting the reality of her fortress. The "silver tide" neutralizes her defenses and strips her armor, terrifying the demon who mistakes it for high-level magic. With her defenses crumbled by the robot, Bajie clears a path, and Wukong delivers the finishing blow, shattering her cybernetic skull. Baigujing falls, her immortality stripped away by superior engineering. Wukong reclaims the second staff, and the team secures the room.
+
+**Key Themes:**
+- Technology as the new Divinity.
+- Atomic-level warfare.
+- The fall of the false queen.
