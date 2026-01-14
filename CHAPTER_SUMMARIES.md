@@ -541,3 +541,21 @@ After being sedated and treated by Tianji, Sha Seng regains lucidity but is haun
 - The horror of "what if" scenarios.
 - Survivor's guilt.
 - Revenge for a life unlived.
+
+## Chapter 32: The Gauntlet of Frost
+
+**Setting:** The 12km trek from the *Sky Rake* landing zone to the Spire of Eternal Grief.
+
+**Characters:**
+- **Sun Wukong:** Fueled by the signal of the staff and the heartbeat of the Master.
+- **Zhu Bajie:** Uses new jet-booster tech and brute strength.
+- **Tianji:** Provides elemental support (plasma/fire).
+- **Enemies:** Bone Crawlers (skeletal centipedes), Ice Golems, Valkyrie Harpies.
+
+**Plot Summary:**
+Leaving Alice to guard the recuperating Sha Seng, the trio (Wukong, Bajie, Tianji) begins the assault on Baigujing's stronghold. The journey is a relentless "gauntlet" of monster attacks. They first encounter "Bone Crawlers"—reanimated skeletal leviathans—which they dispatch with heavy strikes and plasma fire. As they advance, they face "Ice Golems" that reform until melted by Tianji's flamethrowers, and "Valkyrie Harpies" that Bajie engages in aerial combat. Throughout the fight, Wukong feels the signal of the stolen staff intensifying, along with a faint biological heartbeat that confirms the Master of this timeline is still alive. They finally crest a ridge to see the Spire of Eternal Grief—a twisted tower of fused bone pulsating with green energy, with the Golden Staff impaled at its peak.
+
+**Key Themes:**
+- Unstoppable momentum.
+- The variety of the undead.
+- Hope driving violence.
