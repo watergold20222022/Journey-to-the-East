@@ -524,3 +524,20 @@ Penetrating the heart of the pyramid, Wukong finds the stolen Golden Staff suspe
 - The tragedy of madness.
 - Brother against Brother.
 - The return of an old feeling nemesis.
+
+## Chapter 31: The Tomb of Memories
+
+**Setting:** The laboratory within the Ice Pyramid.
+
+**Characters:**
+- **Sha Wujing (Timeline B):** Recovering from madness, recounts the tragic fall of his team.
+- **Sun Wukong & Zhu Bajie:** Listen to the story of their own deaths in this timeline.
+- **Baigujing (The White Bone Demon):** Revealed as the conqueror of this timeline, ruling from the Spire of Eternal Grief.
+
+**Plot Summary:**
+After being sedated and treated by Tianji, Sha Seng regains lucidity but is haunted by grief. He recounts the horrific day his team fell to Baigujing. In this timeline, the White Bone Demon used a nano-swarm disguised as clouds to strip the flesh from Sun Wukong's bones instantly. Bajie died heroically but gruesomely, lured into a trap by the Master's mimicked voice and drained of his marrow over three days. Sha Seng, deemed "too tough" to eat, was enslaved and mutated to guard Baigujing's trophies—including the dead Wukong's Golden Staff. He reveals that Tang Seng is still alive, kept as a "blood bag" to feed Baigujing's immortality. Wukong and Bajie realize they are facing a multiverse variant of their old enemy who has already won. They choose not to explain the complex physics to the traumatized Sha Seng, instead promising to avenge his brothers and rescue the Master. Wukong declares that Baigujing is about to learn that "ghosts can bite back."
+
+**Key Themes:**
+- The horror of "what if" scenarios.
+- Survivor's guilt.
+- Revenge for a life unlived.
