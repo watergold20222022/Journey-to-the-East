@@ -594,3 +594,6 @@ Baigujing, defeated and stripped of her power, expresses disbelief that Wukong a
 - The paranoia of the usurper.
 - The persistence of heavy objects (and history).
 - Justice transferred to the victim.
+
+## Chapter 35: The Poisoned Truth
+Wukong demands the location of this timeline's Tang Seng, sensing his aura nearby. Baigujing reveals a glass containment unit housing only clean-picked bones and the Master's relic Kasaya. She confesses that she ate the monk centuries ago, believing the rumor that his flesh granted immortality. However, the flesh was a "trojan horse"—toxic and viral. Instead of godhood, it gave her "tech-rot," stripping away her magic and leaving her weak and crippled, explaining her easy defeat. Wukong and Bajie are horrified by the implication that the entire "Journey to the West" might be a deception, or that the monk was designed as a biological trap for demons. Wukong orders Bajie to collect the remains, vowing to uncover the truth about the mission's real purpose.
