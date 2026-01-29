@@ -684,3 +684,6 @@ Red Boy breaks through the dimensional wall and emerges into real space (Sector 
 
 ## Chapter 64: Return to the Scorched Earth
 Red Boy returns to the Flaming Mountain, only to find it unrecognizable. The hellish volcanic landscape has been terraformed into a lush, peaceful garden by Guanyin's technology. Disgusted by this "weakness," Red Boy disables the orbital defenses with a thought and crash-lands his ship in the palace courtyard. He effortless brushes aside the guards. Princess Iron Fan emerges to meet him, shocked by his dark transformation. Red Boy confronts his mother, stating he has returned, but not to stay.
+
+## Chapter 65: The Iron Fan's Tears
+Inside the transformed palace, Red Boy confronts his mother. He mocks their peaceful life and demands the Palm Leaf Fan. Princess Iron Fan tries to explain that Guanyin saved them and that Wukong is not the enemy, but Red Boy is too consumed by his narrative of betrayal. He destroys a childhood toy his mother offers him, symbolizing his complete rejection of his past and his humanity. He demands to see his father, the Bull Demon King.
