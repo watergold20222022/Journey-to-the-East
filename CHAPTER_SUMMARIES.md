@@ -708,3 +708,6 @@ Nezha arrives at Kunlun Station, finding it partially erased by a Void power tha
 
 ## Chapter 72: Echoes of Entropy
 Following Red Boy's trail, Nezha discovers a derelict Heavenly Navy cruiser, the *Silent Sentinel*. The ship is intact but completely devoid of its crew. A log reveals that Red Boy didn't destroy them but "consumed" them, absorbing their life force to fuel his power. Disgusted by this violation of the warrior's code and realizing Red Boy's power has doubled, Nezha calibrates his Qiankun Ring to generate an anti-entropy field for protection. He leaves the ghost ship behind, his resolve hardened, and continues the pursuit to the Yellow Wind Ridge system.
+
+## Chapter 73: The Eye of the Yellow Wind
+Nezha arrives at System 81-X, a binary star system plagued by a massive "Yellow Wind" solar storm. He tracks Red Boy's Void signature into the heart of the chaos but also detects a second massive signal: the "Yellow Wind King," a Titan-class entity composed of the storm itself. Realizing that Red Boy is likely engaging this local warlord, Nezha sees an opportunity to ambush them. Ignoring his AI's warnings about the deadly radiation, he dives his ship into the maelstrom, seeking a three-way battle.
