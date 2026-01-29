@@ -699,3 +699,6 @@ Red Boy arrives at Planet Kunlun, the crystal archive of the multiverse. He is i
 
 ## Chapter 69: The Red Lotus in the Ice
 Nezha, the Third Lotus Prince, is introduced on Planet Cryos-4, effortlessly dispatching a massive Ice Demon. He is portrayed as a bored, overpowered warrior of the Heavenly Court. Immediately after the battle, he receives a Priority Alpha transmission from Guanyin. She informs him of Red Boy's escape from the Eternal Hell and his acquisition of Void powers. Guanyin tasks Nezha with hunting Red Boy down, warning that the boy is a threat to the sector and to the vulnerable, rebooted Wukong. Nezha accepts the mission, excited by the prospect of a challenging opponent who once defeated the Monkey King.
+
+## Chapter 70: The Unfinished Duel
+En route to Kunlun in his starfighter, the *Red Armillary*, Nezha reviews the archives of the Great War in Heaven. He relives a simulation of his legendary duel with Sun Wukong, dwelling on the shame of his near-defeat and the unresolved rivalry. Frustrated that the "rebooted" Wukong is no longer a worthy opponent to prove his superiority against, Nezha turns his fixation toward Red Boy. Reasoning that since Red Boy defeated Wukong, defeating Red Boy would prove Nezha's supremacy, he overrides his ship's safety limits to reach Kunlun faster, eager to begin the hunt.
