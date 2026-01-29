@@ -687,3 +687,6 @@ Red Boy returns to the Flaming Mountain, only to find it unrecognizable. The hel
 
 ## Chapter 65: The Iron Fan's Tears
 Inside the transformed palace, Red Boy confronts his mother. He mocks their peaceful life and demands the Palm Leaf Fan. Princess Iron Fan tries to explain that Guanyin saved them and that Wukong is not the enemy, but Red Boy is too consumed by his narrative of betrayal. He destroys a childhood toy his mother offers him, symbolizing his complete rejection of his past and his humanity. He demands to see his father, the Bull Demon King.
+
+## Chapter 66: The Bull and the Boy
+Red Boy confronts the Bull Demon King, finding his father living a simple life. The Bull reveals that he knows about the deal with the Shadow (Prince of Night) and warns Red Boy that he is being used. Crucially, the Bull corrects Red Boy's intelligence: Wukong is not a helpless amnesiac child. The Bull claims to have met the *adult* Wukong recently, who was heading to Planet Kunlun on a mission. This contradicts the Prince of Night's info (or perhaps reveals a timeline discrepancy/multiverse complication). Red Boy, fueled by pride and the desire for a worthy opponent, refuses to listen. He declares he will go to Kunlun to kill Wukong regardless. The Bull Demon King prepares to stop his son by force.
