@@ -702,3 +702,6 @@ Nezha, the Third Lotus Prince, is introduced on Planet Cryos-4, effortlessly dis
 
 ## Chapter 70: The Unfinished Duel
 En route to Kunlun in his starfighter, the *Red Armillary*, Nezha reviews the archives of the Great War in Heaven. He relives a simulation of his legendary duel with Sun Wukong, dwelling on the shame of his near-defeat and the unresolved rivalry. Frustrated that the "rebooted" Wukong is no longer a worthy opponent to prove his superiority against, Nezha turns his fixation toward Red Boy. Reasoning that since Red Boy defeated Wukong, defeating Red Boy would prove Nezha's supremacy, he overrides his ship's safety limits to reach Kunlun faster, eager to begin the hunt.
+
+## Chapter 71: Scars on the Crystal
+Nezha arrives at Kunlun Station, finding it partially erased by a Void power that defies physics—a "delete function on reality" rather than physical destruction. He locates a traumatized Tianji, who reveals that Red Boy, empowered by "The Prince of Night," forced him to surrender Wukong's coordinates. Nezha realizes the gravity of the threat: Red Boy wields a fire that burns history. Despite Tianji's warnings that this enemy can "unmake" him, Nezha remains arrogant, dismissing the danger. He retrieves the coordinates for "Yellow Wind Ridge" (System 81-X) and departs to intercept Red Boy, excited by the lethal challenge.
