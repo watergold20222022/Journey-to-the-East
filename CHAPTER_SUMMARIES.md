@@ -705,3 +705,6 @@ En route to Kunlun in his starfighter, the *Red Armillary*, Nezha reviews the ar
 
 ## Chapter 71: Scars on the Crystal
 Nezha arrives at Kunlun Station, finding it partially erased by a Void power that defies physics—a "delete function on reality" rather than physical destruction. He locates a traumatized Tianji, who reveals that Red Boy, empowered by "The Prince of Night," forced him to surrender Wukong's coordinates. Nezha realizes the gravity of the threat: Red Boy wields a fire that burns history. Despite Tianji's warnings that this enemy can "unmake" him, Nezha remains arrogant, dismissing the danger. He retrieves the coordinates for "Yellow Wind Ridge" (System 81-X) and departs to intercept Red Boy, excited by the lethal challenge.
+
+## Chapter 72: Echoes of Entropy
+Following Red Boy's trail, Nezha discovers a derelict Heavenly Navy cruiser, the *Silent Sentinel*. The ship is intact but completely devoid of its crew. A log reveals that Red Boy didn't destroy them but "consumed" them, absorbing their life force to fuel his power. Disgusted by this violation of the warrior's code and realizing Red Boy's power has doubled, Nezha calibrates his Qiankun Ring to generate an anti-entropy field for protection. He leaves the ghost ship behind, his resolve hardened, and continues the pursuit to the Yellow Wind Ridge system.
