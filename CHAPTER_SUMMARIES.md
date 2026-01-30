@@ -711,3 +711,6 @@ Following Red Boy's trail, Nezha discovers a derelict Heavenly Navy cruiser, the
 
 ## Chapter 73: The Eye of the Yellow Wind
 Nezha arrives at System 81-X, a binary star system plagued by a massive "Yellow Wind" solar storm. He tracks Red Boy's Void signature into the heart of the chaos but also detects a second massive signal: the "Yellow Wind King," a Titan-class entity composed of the storm itself. Realizing that Red Boy is likely engaging this local warlord, Nezha sees an opportunity to ambush them. Ignoring his AI's warnings about the deadly radiation, he dives his ship into the maelstrom, seeking a three-way battle.
+
+## Chapter 74: The Storm Eater
+Red Boy arrives at System 81-X not in a ship, but as a being of pure energy and Void. He is confronted by the "Yellow Wind King," a titan-class entity formed from trillions of nano-drones within the solar storm. A massive interstellar battle ensues. The Yellow Wind King attacks with the power of the binary stars, but Red Boy consumes the attacks, drinking plasma and erasing the nano-swarm with his Void Fire. Just as Red Boy cripples the titan and prepares to consume its core, he senses a new arrival: Nezha. Recognizing the signature of the Wind Fire Wheels, Red Boy abandons the kill, shifting his attention to the "meal worth eating" that has just arrived.
