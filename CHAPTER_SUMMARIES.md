@@ -717,3 +717,13 @@ Red Boy arrives at System 81-X not in a ship, but as a being of pure energy and 
 
 ## Chapter 75: The Fall of the War God
 Nezha attempts to join forces with the Yellow Wind King to defeat Red Boy, but fatally underestimates the child's new Void powers. Red Boy effortlessly "erases" the Yellow Wind King and brushes off Nezha's "Three Heads, Six Arms" ultimate attack as if it were child's play. Dismissing Nezha as weak, Red Boy blasts him into the core of a nearby iron planet and leaves, frustrated by the lack of information on Wukong. Deep within the planetary core, a broken Nezha activates his "Lotus Rebirth" protocol, draining the planet's thermal energy to heal and upgrade himself. He emerges stronger and manic with excitement, thrilled to have found an opponent far more dangerous—and interesting—than Sun Wukong.
+
+## Upcoming Arc Plan (Chapters 76-80)
+- **Chapter 76: The Planet of Lost Sparks**: Nezha tracks Red Boy to a dark industrial world, "The orphanage of the stars," where an ancient Demon King (The Child-eater) processes kidnapped children into bio-fuel. Nezha witnesses Red Boy's failed assault.
+- **Chapter 77: The Furnace of Souls**: Red Boy is critically injured by the Demon King's "Innocence Shield." Nezha performs a high-speed rescue, dragging his rival to a shielded subterranean cavern.
+- **Chapter 78: The Stalemate**: Nezha attempts to clear the dungeon alone. He engages the Demon King but finds his divine weapons ineffective against the Demon's specific defense mechanism. It's a draw, forcing Nezha to retreat.
+- **Chapter 79: The Unexpected Alliance**: Back in the cave, Nezha shares his energy to heal Red Boy. The two arrogance-filled warriors are forced to talk and recognize they need each other's specific powers (Divine Law + Entropic Void) to break the King.
+- **Chapter 80: Twin Fires**: The duo launches a coordinated attack. They combine their flames to overload the Soul Furnace, killing the Demon King. With the planet liberated but full of refugees, they decide to stay temporarily as guardians.
+
+## Chapter 76: The Planet of Lost Sparks
+Nezha tracks Red Boy to Planet Lament, an industrial wasteland ruled by the Great King of Inspiration. Nezha discovers the horrific truth of the planet: the King uses kidnapped children from across the galaxy as bio-fuel. Nezha observes Red Boy confronting the entity. Red Boy attempts to destroy the King, but the villain activates an "Innocence Shield," linking his defense to the lives of the captive children. Red Boy, unable to harm the hostages, hesitates and is hit point-blank by the King's "Soul Cannon." As mechanical claws drag the unconscious Red Boy away, Nezha, disgusted by the King's tactics, prepares to intervene.
