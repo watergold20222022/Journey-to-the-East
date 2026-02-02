@@ -771,3 +771,6 @@ On the moon Crateris, the truce between Nezha and Red Boy ends. Bound by duty, N
 
 ## Chapter 87: The Lotus Report
 Nezha returns to the Potalaka Station to report to Guanyin. He formally admits to failing his mission to capture Red Boy and offers to resign. Guanyin reveals she was monitoring the situation and shows footage of Red Boy's constructive actions. She explains that true victory was not imprisoning Red Boy, but redeeming him. By showing him trust and a new path, Nezha achieved a spiritual victory. She absolves Nezha of any wrongdoing and orders him to rejoin the main pilgrimage with Wukong and the others. Nezha leaves, unburdened and ready for the next phase of the journey.
+
+## Chapter 88: The Frozen Prisoner and the Distant Thunder
+Baigujing is secured in a quantum stasis field within Tianji's laboratory on the ice planet. Alice volunteers to stay behind to guard the prisoner and help the locals rebuild. Suddenly, long-range sensors detect a massive energy surge from Planet Lament, showing signatures of both Celestial Energy and True Samadhi Fire. Wukong recognizes the traces of the Heavenly Court and Red Boy. Believing this conflict might hold a clue to their missing Master or the Court's movements, Wukong decides to investigate. The trio—Wukong, Bajie, and Tianji—board the *Sky Rake* and depart, leaving Alice behind as their rearguard.
