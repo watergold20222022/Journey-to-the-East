@@ -792,3 +792,6 @@ Zhu Bajie, fully aware that he is in a simulation, chooses to indulge in the ill
 
 ## Chapter 93: Fireflies in Amber
 They awaken inside bio-pods in a massive hive, realizing they are being used as living batteries. Bajie sees Seven being tortured and re-purposed nearby. Tianji, fighting the system from within the digital realm, manages to inject a "Wake Up" protocol into Wukong's simulation. Wukong shatters his illusion and breaks out of his physical pod, rescuing the others. Bajie summons his rake, fueled by rage at Seven's treatment. The Spider Matriarch, alerted to the breach, awakens the hive.
+
+## Chapter 94: Tearing the Sky
+Wukong and Tianji engage the massive Spider Matriarch, discovering she is shielded by the colony's power grid. Bajie goes to rescue Seven, only to learn that destroying the Matriarch will kill all the connected "daughters," including her. Seven begs for death to end the slavery. Heartbroken, Bajie agrees. Wukong and Tianji create an opening in the shield, and Bajie delivers the killing blow to the Matriarch's core, destroying the hive mind. The Matriarch falls, and the prisoners are released. Bajie mourns Seven as they escape, tying a piece of her red silk to his rake as a memento. The team leaves the nebula, hardened and refocused on their mission.
