@@ -789,3 +789,6 @@ The crew, trapped on the crystal planet, succumbs to personalized hallucinations
 
 ## Chapter 92: A Waltz of Silk and Steel
 Zhu Bajie, fully aware that he is in a simulation, chooses to indulge in the illusion to relive his days as a respected Marshal. He dances with "Seven," a cyborg spider-woman tasked with harvesting him. They bond over their shared sense of entrapment and loss. When Bajie offers to save her, the "Great Mother" (the Spider Matriarch) detects the deviation. The illusion shatters, revealing the rusted, organic reality of the hive. To save Bajie from being consumed by the Mother, Seven pushes him off the terrace into the pod-city below, sacrificing herself as she is dragged away by the hive's control cables.
+
+## Chapter 93: Fireflies in Amber
+They awaken inside bio-pods in a massive hive, realizing they are being used as living batteries. Bajie sees Seven being tortured and re-purposed nearby. Tianji, fighting the system from within the digital realm, manages to inject a "Wake Up" protocol into Wukong's simulation. Wukong shatters his illusion and breaks out of his physical pod, rescuing the others. Bajie summons his rake, fueled by rage at Seven's treatment. The Spider Matriarch, alerted to the breach, awakens the hive.
