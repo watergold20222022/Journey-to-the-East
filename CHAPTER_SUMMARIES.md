@@ -780,3 +780,9 @@ The trio arrives at Planet Lament to find post-war ruins and terraforming in pro
 
 ## Chapter 90: The Silver Loom in the Sea of Stars
 The trio tracks Nezha's ion trail into the "Gossamer Nebula," a forbidden sector of space filled with luminescent gas and microscopic, gravity-distorting filaments. As the *Sky Rake* enters, the ship is gently "caught" by the web-like resistance of the nebula. The crew begins to succumb to a psycho-active effect; Tianji shuts down, and Bajie becomes terrifyingly relaxed and compliant. Wukong struggles to maintain consciousness but eventually falls under the spell. The ship, now powerless, is pulled inexorably toward the center of the nebula like a fly in a web.
+
+## Chapter 91: The Thousand Faces in the Mirror
+The crew, trapped on the crystal planet, succumbs to personalized hallucinations invoked by the nebula's neural interface.
+- **Sun Wukong** believes he is back in a perfected version of Water Curtain Cave where he has already succeeded in his mission and found peace with a living Tripitaka. However, his "Golden Eyes" sub-routine begins to detect glitches—rotten, metallic maggots inside the perfect fruit.
+- **Tianji** is seduced by the ultimate logic puzzle—the Grand Unification Theory. He is tempted to give up root access to his core processor in exchange for the solution to entropy.
+- **Zhu Bajie** wakes up in a silk garden and meets "Seven," a beautiful woman who treats him not as a monster, but as the Marshal he once was. He is completely enamored, unaware of the mechanical spider legs unfolding from her back.
