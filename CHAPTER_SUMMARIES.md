@@ -804,3 +804,6 @@ Dragon King Ao Guang reveals that the planet's instability is caused by their gr
 
 ## Chapter 97: The Anchor of the Sea
 Wukong, Tianji, and Ao Guang descend to the planet's core in a specialized vessel. The core breach is a gravitational singularity threatening to swallow the planet. Wukong leaves the ship, withstanding immense pressure and heat, and drives the Golden Staff into the singularity. He commands the staff to expand and "Settle the Sea," using it to bridge the tectonic plates and seal the breach. The staff becomes a permanent pillar of the planet. Wukong is rescued, alive but stripped of his signature weapon, feeling a profound sense of loss.
+
+## Chapter 98: The Fang and the Billion Pearls
+Wukong feels the loss of his staff. To repay him, the Dragon King sacrifices his own Ancestral Fang, and the Dragon citizens donate one hundred million Dragon Pearls. Tianji fuses these materials to create a new weapon: the "Dragon Tooth Staff." It is a white, iridescent weapon capable of cutting space and storing kinetic energy. Wukong accepts the gift, realizing it carries the collective will and gratitude of the Dragon race.
