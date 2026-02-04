@@ -798,3 +798,6 @@ Wukong and Tianji engage the massive Spider Matriarch, discovering she is shield
 
 ## Chapter 95: The Endless Ocean
 The team arrives at Planet Ao (Dragon Star), a water world, for repairs. They find the planet in chaos, with gravity anomalies causing massive water pillars to rise into orbit. Intercepted by dragon-riders, they are escorted underwater to the Crystal Palace, a majestic but crumbling city. Dragon King Ao Guang welcomes Wukong with desperation, revealing that the planet's core—the "Heart of the Ocean"—is failing, and their world is on the brink of destruction.
+
+## Chapter 96: The Shattered Heart
+Dragon King Ao Guang reveals that the planet's instability is caused by their greedy mining of the planetary core ("Dragon Vein"). The ancient Dragon Mother appears and identifies only one object in the universe capable of withstanding the core's pressure to plug the singularity: Wukong's Golden Staff. Bajie protests, but Wukong, seeing the billions of lives at stake and acknowledging his past debt to the Dragon Palace, agrees to sacrifice his legendary weapon to save the world.
