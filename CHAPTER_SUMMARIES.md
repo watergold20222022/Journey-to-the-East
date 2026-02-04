@@ -795,3 +795,6 @@ They awaken inside bio-pods in a massive hive, realizing they are being used as 
 
 ## Chapter 94: Tearing the Sky
 Wukong and Tianji engage the massive Spider Matriarch, discovering she is shielded by the colony's power grid. Bajie goes to rescue Seven, only to learn that destroying the Matriarch will kill all the connected "daughters," including her. Seven begs for death to end the slavery. Heartbroken, Bajie agrees. Wukong and Tianji create an opening in the shield, and Bajie delivers the killing blow to the Matriarch's core, destroying the hive mind. The Matriarch falls, and the prisoners are released. Bajie mourns Seven as they escape, tying a piece of her red silk to his rake as a memento. The team leaves the nebula, hardened and refocused on their mission.
+
+## Chapter 95: The Endless Ocean
+The team arrives at Planet Ao (Dragon Star), a water world, for repairs. They find the planet in chaos, with gravity anomalies causing massive water pillars to rise into orbit. Intercepted by dragon-riders, they are escorted underwater to the Crystal Palace, a majestic but crumbling city. Dragon King Ao Guang welcomes Wukong with desperation, revealing that the planet's core—the "Heart of the Ocean"—is failing, and their world is on the brink of destruction.
