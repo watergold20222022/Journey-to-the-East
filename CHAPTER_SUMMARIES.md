@@ -801,3 +801,6 @@ The team arrives at Planet Ao (Dragon Star), a water world, for repairs. They fi
 
 ## Chapter 96: The Shattered Heart
 Dragon King Ao Guang reveals that the planet's instability is caused by their greedy mining of the planetary core ("Dragon Vein"). The ancient Dragon Mother appears and identifies only one object in the universe capable of withstanding the core's pressure to plug the singularity: Wukong's Golden Staff. Bajie protests, but Wukong, seeing the billions of lives at stake and acknowledging his past debt to the Dragon Palace, agrees to sacrifice his legendary weapon to save the world.
+
+## Chapter 97: The Anchor of the Sea
+Wukong, Tianji, and Ao Guang descend to the planet's core in a specialized vessel. The core breach is a gravitational singularity threatening to swallow the planet. Wukong leaves the ship, withstanding immense pressure and heat, and drives the Golden Staff into the singularity. He commands the staff to expand and "Settle the Sea," using it to bridge the tectonic plates and seal the breach. The staff becomes a permanent pillar of the planet. Wukong is rescued, alive but stripped of his signature weapon, feeling a profound sense of loss.
