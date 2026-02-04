@@ -807,3 +807,6 @@ Wukong, Tianji, and Ao Guang descend to the planet's core in a specialized vesse
 
 ## Chapter 98: The Fang and the Billion Pearls
 Wukong feels the loss of his staff. To repay him, the Dragon King sacrifices his own Ancestral Fang, and the Dragon citizens donate one hundred million Dragon Pearls. Tianji fuses these materials to create a new weapon: the "Dragon Tooth Staff." It is a white, iridescent weapon capable of cutting space and storing kinetic energy. Wukong accepts the gift, realizing it carries the collective will and gratitude of the Dragon race.
+
+## Chapter 99: The Perpetual Engine
+Tianji works with Dragon scientists to solve the root cause of their energy crisis. He proposes a "Tidal Resonance Cold Fusion" system that utilizes the planet's massive tides and piezoelectric crystals to generate infinite, clean energy, ensuring the Dragon race never needs to harm their planet again. The *Sky Rake*, repaired and upgraded, departs Planet Ao. The team tracks Nezha to a new location: a space station named "Little Thunder Monastery" in Sector 10.
