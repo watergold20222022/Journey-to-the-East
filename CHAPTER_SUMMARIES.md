@@ -822,3 +822,6 @@ The grapple drags everyone into the gravitational pull of the Maw of Kara. As th
 
 ## Chapter 103: The Sower of Civilization
 Tianji calculates that rescuing his friends requires technology and processing power far beyond the *Sky Rake*. He decides to uplift the native population of Primus to build a planetary supercomputer. Ignoring Federation protocols, he synthesizes and releases the "Prometheus Strain," a virus designed to accelerate cognitive evolution. He lands the ship on a mountain, establishing it as a "Monastery," and prepares to guide the newly evolving species as their teacher, with the ultimate goal of unlocking the black hole.
+
+## Chapter 104: The Lonely Watcher
+Centuries pass on Primus. The civilization, uplifted by the virus and Tianji's teachings, advances rapidly. They build the foundation of a planetary supercomputer. Tianji, realizing his direct intervention is no longer efficient, decides to enter cryo-stasis to wait for the construction to complete. He leaves instructions for the "Great Machine" to be built—a device capable of harnessing the solar system's energy. He becomes a legendary figure, the "Lonely Watcher," sleeping in the mountain until the day he can power the rescue of his lost companions.
