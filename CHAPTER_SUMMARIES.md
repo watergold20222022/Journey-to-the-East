@@ -816,3 +816,6 @@ Approaching the supermassive black hole "Maw of Kara," the team discovers a smal
 
 ## Chapter 101: The Shackled Fight
 Wukong and Bajie land on the planet but find themselves unable to fight freely. The Void Kraken has fused its life support with the planetary core; killing it violently would detonate the planet. Wukong is forced to fight with surgical precision, drawing the monster's attention away from the native population. The Kraken, realizing the threat, uses the planet's gravity and the black hole's pull to its advantage. It grabs both Wukong and Bajie and launches itself into orbit, dragging them toward the event horizon.
+
+## Chapter 102: Falling into the Horizon
+The grapple drags everyone into the gravitational pull of the Maw of Kara. As they cross the accretion disk, the Kraken tries to release them to save itself, but Bajie magnetically locks onto the monster, ensuring it falls with them. Wukong refuses to abandon Bajie. They cross the event horizon, vanishing from the known universe. Tianji, watching from the ship, is left alone as their signals are abruptly cut off by the singularity.
