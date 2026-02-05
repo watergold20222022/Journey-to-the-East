@@ -825,3 +825,9 @@ Tianji calculates that rescuing his friends requires technology and processing p
 
 ## Chapter 104: The Lonely Watcher
 Centuries pass on Primus. The civilization, uplifted by the virus and Tianji's teachings, advances rapidly. They build the foundation of a planetary supercomputer. Tianji, realizing his direct intervention is no longer efficient, decides to enter cryo-stasis to wait for the construction to complete. He leaves instructions for the "Great Machine" to be built—a device capable of harnessing the solar system's energy. He becomes a legendary figure, the "Lonely Watcher," sleeping in the mountain until the day he can power the rescue of his lost companions.
+
+## Chapter 105: The Galactic Overlords
+Thousands of years in the future, humanity has evolved into *Homo Deus*—a synthesis of biology and AI, ruling the galaxy with absolute authority. Commander Vance, a high-ranking officer of the Terran Federation, enforces peace through technological superiority. However, the Federation's omnipotence is challenged when deep-space sensors detect an impossible anomaly: kinetic impacts striking a black hole from the *inside*, and a massive Stellar Engine being constructed in a primitive sector. The signals suggest a power that defies physics, prompting the Bored Gods of humanity to investigate.
+
+## Chapter 106: The Pangu Protocol
+In the shadows of the galaxy, the Apotheosis Group (Super-God Group) conducts forbidden experiments to merge magic and technology. Their leader, Pangu—a digital consciousness obsessed with mythology—attempts to artificially recreate legendary figures like Hercules and Nezha but fails to replicate their "divine spark." When Pangu intercepts the anomalous signal from the black hole, he recognizes it not as physics, but as the spiritual signature of Sun Wukong. Realizing that the myths are real and trapped, he dispatches his elite "God-Slayer" unit to capture the Monkey King for dissection and assimilation.
