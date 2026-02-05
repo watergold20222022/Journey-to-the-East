@@ -813,3 +813,6 @@ Tianji works with Dragon scientists to solve the root cause of their energy cris
 
 ## Chapter 100: The Tentacles of the Abyss
 Approaching the supermassive black hole "Maw of Kara," the team discovers a small planet being consumed by a Void Kraken—a moon-sized monster draining the planet's core. Wukong spots primitive, monkey-like inhabitants facing extinction. Despite Bajie's protests about the extreme gravitational danger, Wukong refuses to abandon the innocents. He orders Tianji to keep the *Sky Rake* in orbit while he and a reluctant Bajie descend to the surface to fight the beast.
+
+## Chapter 101: The Shackled Fight
+Wukong and Bajie land on the planet but find themselves unable to fight freely. The Void Kraken has fused its life support with the planetary core; killing it violently would detonate the planet. Wukong is forced to fight with surgical precision, drawing the monster's attention away from the native population. The Kraken, realizing the threat, uses the planet's gravity and the black hole's pull to its advantage. It grabs both Wukong and Bajie and launches itself into orbit, dragging them toward the event horizon.
