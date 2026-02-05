@@ -819,3 +819,6 @@ Wukong and Bajie land on the planet but find themselves unable to fight freely. 
 
 ## Chapter 102: Falling into the Horizon
 The grapple drags everyone into the gravitational pull of the Maw of Kara. As they cross the accretion disk, the Kraken tries to release them to save itself, but Bajie magnetically locks onto the monster, ensuring it falls with them. Wukong refuses to abandon Bajie. They cross the event horizon, vanishing from the known universe. Tianji, watching from the ship, is left alone as their signals are abruptly cut off by the singularity.
+
+## Chapter 103: The Sower of Civilization
+Tianji calculates that rescuing his friends requires technology and processing power far beyond the *Sky Rake*. He decides to uplift the native population of Primus to build a planetary supercomputer. Ignoring Federation protocols, he synthesizes and releases the "Prometheus Strain," a virus designed to accelerate cognitive evolution. He lands the ship on a mountain, establishing it as a "Monastery," and prepares to guide the newly evolving species as their teacher, with the ultimate goal of unlocking the black hole.
