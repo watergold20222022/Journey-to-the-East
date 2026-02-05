@@ -810,3 +810,6 @@ Wukong feels the loss of his staff. To repay him, the Dragon King sacrifices his
 
 ## Chapter 99: The Perpetual Engine
 Tianji works with Dragon scientists to solve the root cause of their energy crisis. He proposes a "Tidal Resonance Cold Fusion" system that utilizes the planet's massive tides and piezoelectric crystals to generate infinite, clean energy, ensuring the Dragon race never needs to harm their planet again. The *Sky Rake*, repaired and upgraded, departs Planet Ao. The team tracks Nezha to a new location: a space station named "Little Thunder Monastery" in Sector 10.
+
+## Chapter 100: The Tentacles of the Abyss
+Approaching the supermassive black hole "Maw of Kara," the team discovers a small planet being consumed by a Void Kraken—a moon-sized monster draining the planet's core. Wukong spots primitive, monkey-like inhabitants facing extinction. Despite Bajie's protests about the extreme gravitational danger, Wukong refuses to abandon the innocents. He orders Tianji to keep the *Sky Rake* in orbit while he and a reluctant Bajie descend to the surface to fight the beast.
