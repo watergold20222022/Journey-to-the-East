@@ -6,17 +6,19 @@
 
 ## Implementation Date
 
-2026-02-06
+- **Initial Implementation**: 2026-02-06
+- **Vercel Deployment Fix**: 2026-02-06 (Updated to use Upstash Redis)
 
 ## Features Implemented
 
 ### 1. Core Functionality
 - ✅ 用户可以在网页右侧提交反馈
 - ✅ 每个反馈最多100字符
-- ✅ 所有反馈保存到 `reader-feedback.md` 文件
+- ✅ 所有反馈保存到 **Upstash Redis** (cloud storage for Vercel deployment)
 - ✅ 反馈实时同步显示在网页右侧
 - ✅ 每次提交时自动删除10天前的旧帖子
 - ✅ 每个IP每天最多提交3个反馈
+- ✅ 兼容Vercel serverless环境
 
 ### 2. Data Structure
 
@@ -31,27 +33,22 @@
 }
 ```
 
-### 3. File Structure
+### 3. Storage Structure
 
-`reader-feedback.md` 文件格式：
+**Production (Vercel)**: Upstash Redis
+- Key: `feedback:posts`
+- Value: JSON array of post objects
+- Persistent storage in cloud
+- Supports serverless environment
 
-```markdown
-# Reader Feedback
+**Local Development**: 
+- Option 1: Use same Upstash Redis (recommended)
+- Option 2: No Redis setup (GET returns empty, POST returns 503)
 
----
-timestamp: 2026-02-06T01:47:11.072Z
-userId: user_3e48ef9d
-ip: ::ffff:127.0.0.1
----
-This is an amazing cyberpunk story!
-
----
-timestamp: 2026-02-06T01:47:24.601Z
-userId: user_3e48ef9d
-ip: ::ffff:127.0.0.1
----
-Second post
-```
+**Legacy (deprecated)**: `reader-feedback.md` file format
+- Used in initial implementation
+- Not compatible with Vercel serverless
+- Replaced by Redis storage
 
 ## Files Created/Modified
 
@@ -66,24 +63,25 @@ API端点，处理反馈的读取和提交：
 
 **核心函数：**
 - `generateUserId(ip)` - 基于IP生成匿名用户ID
-- `parseFeedback()` - 解析reader-feedback.md文件
-- `saveFeedback(posts)` - 保存反馈到文件
+- `getFeedbackPosts()` - 从Upstash Redis获取反馈
+- `saveFeedbackPosts(posts)` - 保存反馈到Upstash Redis
 - `cleanOldPosts(posts)` - 删除10天前的旧帖子
 - `checkRateLimit(posts, ip)` - 检查IP是否超过每天3次限制
 - `getClientIp(req)` - 获取客户端IP地址
 
+**依赖：**
+- `@upstash/redis` - Upstash Redis client for serverless
+
 **错误处理：**
 - 400: 内容为空或超过100字符
 - 429: 超过限流（每天3次）
-- 500: 服务器错误（文件操作失败）
+- 500: 服务器错误（Redis操作失败）
+- 503: Redis未配置（需要设置环境变量）
 
 #### `/reader-feedback.md`
-存储所有用户反馈的markdown文件
-
-**初始内容：**
-```markdown
-# Reader Feedback
-```
+~~存储所有用户反馈的markdown文件~~ (已弃用)
+- 仅用于本地开发参考
+- 生产环境使用Upstash Redis
 
 ### 2. Modified Files
 
@@ -401,18 +399,100 @@ curl http://localhost:3000/api/feedback/
 
 ## Maintenance
 
-### 数据文件位置
-`/reader-feedback.md` - 存储所有反馈数据
+### Storage Location
+**Production (Vercel)**: Upstash Redis
+- Key: `feedback:posts`
+- Access via Upstash Console: https://console.upstash.com/
+
+**Local Development**: 
+- If using Redis: Same as production
+- If not using Redis: No persistent storage (view-only mode)
 
 ### 清理策略
 - 自动清理：每次POST时删除>10天的旧帖子
-- 手动清理：如需要，可直接编辑reader-feedback.md文件
+- 手动清理：通过Upstash Console的Data Browser删除 `feedback:posts` key
 
 ### 监控建议
-- 定期检查reader-feedback.md文件大小
-- 监控API错误率（特别是429和500错误）
+- 定期检查Upstash dashboard的请求量
+- 监控API错误率（特别是429、500、503错误）
 - 关注恶意提交行为
+- 检查Redis存储空间使用情况
+
+### Upstash Free Tier Limits
+- 10,000 requests per day
+- 256 MB storage
+- More than enough for typical usage
+
+## Vercel Deployment
+
+### Required Environment Variables
+
+Set these in Vercel Dashboard → Project → Settings → Environment Variables:
+
+```
+UPSTASH_REDIS_REST_URL = your_redis_url_from_upstash
+UPSTASH_REDIS_REST_TOKEN = your_redis_token_from_upstash
+```
+
+### Setup Steps
+
+1. **Create Upstash Redis Database**
+   - Go to https://console.upstash.com/
+   - Create new database
+   - Copy REST API URL and Token
+
+2. **Add to Vercel**
+   - Vercel Dashboard → Settings → Environment Variables
+   - Add both variables
+   - Redeploy project
+
+3. **Verify**
+   - Visit deployed site
+   - Test posting feedback
+   - Check Upstash Console for data
+
+**Detailed instructions**: See `VERCEL_SETUP.md`
+
+### Troubleshooting Deployment
+
+#### "Feedback service is not configured" Error
+- Environment variables not set in Vercel
+- Solution: Add env vars and redeploy
+
+#### "Failed to post feedback" Error  
+- Redis connection issue
+- Solution: Verify Upstash credentials are correct
+
+#### Posts not persisting
+- Check Upstash Console Data Browser
+- Verify `feedback:posts` key exists
+- Check Vercel function logs for errors
+
+## Dependencies
+
+### Production Dependencies
+```json
+{
+  "@upstash/redis": "^1.x.x"
+}
+```
+
+### Why Upstash Redis?
+- ✅ Serverless-compatible (works with Vercel)
+- ✅ Free tier available (10K requests/day)
+- ✅ REST API (no persistent connection needed)
+- ✅ Global replication
+- ✅ Automatic persistence
+
+### Alternative Storage Options
+If you prefer not to use Upstash:
+- Vercel Postgres
+- Supabase
+- PlanetScale
+- MongoDB Atlas
 
 ## Conclusion
 
 Reader Feedback功能已完整实现并通过所有测试。该功能为Journey to the East项目提供了一个简单、优雅且功能完整的读者互动渠道，完美融入了现有的cyberpunk主题设计。
+
+**Updated for Vercel**: Now uses Upstash Redis for cloud storage, making it fully compatible with Vercel's serverless environment.

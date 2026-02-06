@@ -1,8 +1,14 @@
-import fs from 'fs';
-import path from 'path';
+import { Redis } from '@upstash/redis';
 import crypto from 'crypto';
 
-const feedbackFilePath = path.join(process.cwd(), 'reader-feedback.md');
+// Initialize Redis client (works in Vercel serverless environment)
+// For local development, you can use mock data or set up local Redis
+const redis = process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN
+  ? new Redis({
+      url: process.env.UPSTASH_REDIS_REST_URL,
+      token: process.env.UPSTASH_REDIS_REST_TOKEN,
+    })
+  : null;
 
 // Helper function to generate anonymous user ID from IP
 function generateUserId(ip) {
@@ -10,50 +16,29 @@ function generateUserId(ip) {
   return `user_${hash.substring(0, 8)}`;
 }
 
-// Helper function to parse feedback file
-function parseFeedback() {
-  if (!fs.existsSync(feedbackFilePath)) {
+// Helper function to get all feedback posts
+async function getFeedbackPosts() {
+  if (!redis) {
+    // Return empty array if Redis is not configured (local dev without Redis)
     return [];
   }
 
-  const fileContent = fs.readFileSync(feedbackFilePath, 'utf8');
-  const posts = [];
-  
-  // Split by separator (---) but skip the header
-  const sections = fileContent.split('\n---\n').slice(1);
-  
-  for (let i = 0; i < sections.length; i += 2) {
-    if (i + 1 < sections.length) {
-      const metadata = sections[i];
-      const content = sections[i + 1].trim();
-      
-      const timestampMatch = metadata.match(/timestamp: (.+)/);
-      const userIdMatch = metadata.match(/userId: (.+)/);
-      const ipMatch = metadata.match(/ip: (.+)/);
-      
-      if (timestampMatch && userIdMatch && ipMatch) {
-        posts.push({
-          timestamp: timestampMatch[1],
-          userId: userIdMatch[1],
-          ip: ipMatch[1],
-          content: content,
-        });
-      }
-    }
+  try {
+    const posts = await redis.get('feedback:posts');
+    return posts || [];
+  } catch (error) {
+    console.error('Error fetching from Redis:', error);
+    return [];
   }
-  
-  return posts;
 }
 
-// Helper function to save feedback
-function saveFeedback(posts) {
-  let content = '# Reader Feedback\n';
-  
-  posts.forEach(post => {
-    content += `\n---\ntimestamp: ${post.timestamp}\nuserId: ${post.userId}\nip: ${post.ip}\n---\n${post.content}\n`;
-  });
-  
-  fs.writeFileSync(feedbackFilePath, content, 'utf8');
+// Helper function to save feedback posts
+async function saveFeedbackPosts(posts) {
+  if (!redis) {
+    throw new Error('Redis not configured');
+  }
+
+  await redis.set('feedback:posts', posts);
 }
 
 // Helper function to clean old posts (>10 days)
@@ -93,7 +78,7 @@ export default async function handler(req, res) {
   switch (method) {
     case 'GET':
       try {
-        const posts = parseFeedback();
+        const posts = await getFeedbackPosts();
         const cleanedPosts = cleanOldPosts(posts);
         
         // Return posts without IP addresses (privacy)
@@ -112,6 +97,13 @@ export default async function handler(req, res) {
 
     case 'POST':
       try {
+        // Check if Redis is configured
+        if (!redis) {
+          return res.status(503).json({ 
+            error: 'Feedback service is not configured. Please set up Upstash Redis in Vercel.' 
+          });
+        }
+
         const { content } = req.body;
         const clientIp = getClientIp(req);
         
@@ -125,7 +117,7 @@ export default async function handler(req, res) {
         }
         
         // Parse existing feedback
-        let posts = parseFeedback();
+        let posts = await getFeedbackPosts();
         
         // Clean old posts
         posts = cleanOldPosts(posts);
@@ -145,7 +137,7 @@ export default async function handler(req, res) {
         
         // Add new post and save
         posts.push(newPost);
-        saveFeedback(posts);
+        await saveFeedbackPosts(posts);
         
         res.status(201).json({ 
           success: true, 
