@@ -4,21 +4,25 @@ This file contains guidelines for agentic coding assistants working in this repo
 
 ## Build, Lint, and Test Commands
 
-- `npm run dev` - Start development server (hot reload enabled)
-- `npm run build` - Build for production (static export mode)
+- `npm run dev` - Start development server at http://localhost:3000 (hot reload enabled)
+- `npm run build` - Build for production (Next.js optimized build)
 - `npm start` - Start production server
 - `npm run lint` - Run ESLint to check code quality (extends next/core-web-vitals)
 
-Note: No test framework is currently configured. For testing individual components or API routes, use browser developer tools or manual testing.
+**Testing**: No test framework is currently configured. For testing:
+- Use browser developer tools for client-side debugging
+- Test API routes at `/api/chapters` and `/api/chapter/[slug]`
+- Manual testing is the primary verification method
 
 ## Project Overview
 
 This is a Next.js 14 application that renders a cyberpunk-themed novel from markdown content in the `chapters/` directory. The app uses:
-- React 18 with functional components and hooks
-- Static export mode (configured in next.config.js for deployment)
+- React 18 with functional components and hooks exclusively
+- Next.js trailing slashes and unoptimized images (next.config.js)
 - gray-matter for YAML frontmatter parsing
 - remark and remark-html for markdown-to-HTML conversion
 - API routes for dynamic content fetching (chapters list and individual chapter content)
+- styled-jsx for component-scoped CSS
 - Cyberpunk aesthetic with cyan/purple color scheme and monospace fonts
 
 ## Code Style Guidelines
@@ -120,10 +124,10 @@ This is a Next.js 14 application that renders a cyberpunk-themed novel from mark
 - Avoid deep nesting; extract helper functions when needed
 
 ### Static Site Generation
-- Configured for static export (`output: 'export'` in next.config.js)
-- Images are unoptimized for static deployment
-- Trailing slashes enabled for routes
+- Images are unoptimized for static deployment (next.config.js)
+- Trailing slashes enabled for routes (next.config.js)
 - All content fetched client-side via API routes
+- Note: No `output: 'export'` currently configured (standard Next.js SSR mode)
 
 ### Additional Notes
 - No TypeScript currently used (JavaScript only)

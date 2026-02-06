@@ -5,6 +5,10 @@ export default function Home({ initialChapters }) {
   const [chapters, setChapters] = useState(initialChapters || []);
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [chapterContent, setChapterContent] = useState('');
+  const [feedbackPosts, setFeedbackPosts] = useState([]);
+  const [feedbackInput, setFeedbackInput] = useState('');
+  const [feedbackError, setFeedbackError] = useState('');
+  const [feedbackSuccess, setFeedbackSuccess] = useState(false);
 
   useEffect(() => {
     // Fetch chapters list from API
@@ -18,7 +22,19 @@ export default function Home({ initialChapters }) {
       }
     };
 
+    // Fetch feedback posts
+    const fetchFeedback = async () => {
+      try {
+        const response = await fetch('/api/feedback');
+        const data = await response.json();
+        setFeedbackPosts(data.posts || []);
+      } catch (error) {
+        console.error('Error fetching feedback:', error);
+      }
+    };
+
     fetchChapters();
+    fetchFeedback();
   }, []);
 
   useEffect(() => {
@@ -41,6 +57,50 @@ export default function Home({ initialChapters }) {
     } catch (error) {
       console.error('Error fetching chapter:', error);
       setChapterContent('<p>Failed to load chapter content.</p>');
+    }
+  };
+
+  const handleFeedbackSubmit = async (e) => {
+    e.preventDefault();
+    setFeedbackError('');
+    setFeedbackSuccess(false);
+
+    if (!feedbackInput.trim()) {
+      setFeedbackError('Please enter some feedback');
+      return;
+    }
+
+    if (feedbackInput.length > 100) {
+      setFeedbackError('Feedback must be 100 characters or less');
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/feedback', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ content: feedbackInput }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setFeedbackInput('');
+        setFeedbackSuccess(true);
+        // Refresh feedback list
+        const feedbackResponse = await fetch('/api/feedback');
+        const feedbackData = await feedbackResponse.json();
+        setFeedbackPosts(feedbackData.posts || []);
+        
+        setTimeout(() => setFeedbackSuccess(false), 3000);
+      } else {
+        setFeedbackError(data.error || 'Failed to post feedback');
+      }
+    } catch (error) {
+      console.error('Error posting feedback:', error);
+      setFeedbackError('Failed to post feedback');
     }
   };
 
@@ -86,6 +146,44 @@ export default function Home({ initialChapters }) {
           ) : (
             <p>Select a chapter to begin reading.</p>
           )}
+        </div>
+
+        <div className="feedback-panel">
+          <h2>Reader Feedback</h2>
+          
+          <form onSubmit={handleFeedbackSubmit} className="feedback-form">
+            <textarea
+              value={feedbackInput}
+              onChange={(e) => setFeedbackInput(e.target.value)}
+              placeholder="Share your thoughts... (max 100 chars)"
+              maxLength={100}
+              rows={3}
+            />
+            <div className="feedback-controls">
+              <span className="char-count">{feedbackInput.length}/100</span>
+              <button type="submit">POST</button>
+            </div>
+            {feedbackError && <div className="feedback-error">{feedbackError}</div>}
+            {feedbackSuccess && <div className="feedback-success">Posted successfully!</div>}
+          </form>
+
+          <div className="feedback-list">
+            {feedbackPosts.length === 0 ? (
+              <p className="no-feedback">No feedback yet. Be the first!</p>
+            ) : (
+              feedbackPosts.map((post, index) => (
+                <div key={index} className="feedback-post">
+                  <div className="feedback-header">
+                    <span className="feedback-user">{post.userId}</span>
+                    <span className="feedback-time">
+                      {new Date(post.timestamp).toLocaleDateString()}
+                    </span>
+                  </div>
+                  <div className="feedback-content">{post.content}</div>
+                </div>
+              ))
+            )}
+          </div>
         </div>
       </main>
 
@@ -274,6 +372,144 @@ export default function Home({ initialChapters }) {
           overflow-y: auto;
           backdrop-filter: blur(10px);
         }
+
+        .feedback-panel {
+          width: 320px;
+          background: rgba(10, 10, 26, 0.9);
+          border: 1px solid #00ffff;
+          padding: 1.5rem;
+          box-shadow: 0 0 20px rgba(0, 255, 255, 0.3), inset 0 0 40px rgba(0, 255, 255, 0.05);
+          overflow-y: auto;
+          backdrop-filter: blur(10px);
+          display: flex;
+          flex-direction: column;
+          max-height: calc(100vh - 220px);
+        }
+
+        .feedback-panel h2 {
+          color: #00ffff;
+          font-size: 1.3rem;
+          margin-bottom: 1rem;
+          text-shadow: 0 0 10px #00ffff;
+          letter-spacing: 1px;
+          border-bottom: 1px solid #00ffff;
+          padding-bottom: 0.5rem;
+        }
+
+        .feedback-form {
+          margin-bottom: 1.5rem;
+        }
+
+        .feedback-form textarea {
+          width: 100%;
+          padding: 0.8rem;
+          background: rgba(0, 0, 0, 0.5);
+          border: 1px solid #00ffff;
+          color: #00ffff;
+          font-family: 'Courier New', monospace;
+          font-size: 0.9rem;
+          resize: none;
+          margin-bottom: 0.5rem;
+        }
+
+        .feedback-form textarea:focus {
+          outline: none;
+          box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+
+        .feedback-controls {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .char-count {
+          color: #8a2be2;
+          font-size: 0.8rem;
+          text-shadow: 0 0 5px #8a2be2;
+        }
+
+        .feedback-form button {
+          padding: 0.6rem 1.5rem;
+          background: linear-gradient(90deg, rgba(0, 255, 255, 0.2) 0%, rgba(138, 43, 226, 0.2) 100%);
+          border: 1px solid #00ffff;
+          color: #00ffff;
+          font-family: 'Courier New', monospace;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          text-shadow: 0 0 5px #00ffff;
+        }
+
+        .feedback-form button:hover {
+          background: linear-gradient(90deg, rgba(0, 255, 255, 0.4) 0%, rgba(138, 43, 226, 0.4) 100%);
+          box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+
+        .feedback-error {
+          color: #ff0066;
+          font-size: 0.8rem;
+          margin-top: 0.5rem;
+          text-shadow: 0 0 5px #ff0066;
+        }
+
+        .feedback-success {
+          color: #00ff00;
+          font-size: 0.8rem;
+          margin-top: 0.5rem;
+          text-shadow: 0 0 5px #00ff00;
+        }
+
+        .feedback-list {
+          flex: 1;
+          overflow-y: auto;
+        }
+
+        .no-feedback {
+          color: #8a2be2;
+          text-align: center;
+          font-style: italic;
+          margin-top: 2rem;
+          opacity: 0.7;
+        }
+
+        .feedback-post {
+          background: rgba(0, 255, 255, 0.05);
+          border: 1px solid rgba(0, 255, 255, 0.3);
+          padding: 0.8rem;
+          margin-bottom: 0.8rem;
+          transition: all 0.3s ease;
+        }
+
+        .feedback-post:hover {
+          background: rgba(0, 255, 255, 0.1);
+          box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+        }
+
+        .feedback-header {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 0.5rem;
+          font-size: 0.75rem;
+        }
+
+        .feedback-user {
+          color: #8a2be2;
+          font-weight: bold;
+          text-shadow: 0 0 5px #8a2be2;
+        }
+
+        .feedback-time {
+          color: #00ffff;
+          opacity: 0.6;
+        }
+
+        .feedback-content {
+          color: #e0e0e0;
+          font-size: 0.85rem;
+          line-height: 1.4;
+          word-wrap: break-word;
+        }
         
         .content h2 {
           margin-bottom: 2rem;
@@ -351,6 +587,11 @@ export default function Home({ initialChapters }) {
           
           .sidebar {
             width: 100%;
+          }
+
+          .feedback-panel {
+            width: 100%;
+            max-height: 400px;
           }
           
           .header h1 {
