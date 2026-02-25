@@ -107,14 +107,36 @@ export default function Home({ initialChapters }) {
   return (
     <div className="container">
       <Head>
-        <title>Journey to the East</title>
-        <meta name="description" content="A reimagining of the classic Chinese novel Journey to the West for contemporary US readers" />
+        <title>Journey to the East — A Cyberpunk Retelling of Journey to the West</title>
+        <meta name="description" content="A cyberpunk sci-fi reimagining of the classic Chinese epic Journey to the West, written for contemporary Western readers. Follow the Monkey King and his companions across a galactic frontier." />
+        <meta name="keywords" content="Journey to the East, Journey to the West, Sun Wukong, Monkey King, cyberpunk, sci-fi, Chinese mythology, novel, fantasy, Tang Seng" />
+        <meta name="author" content="watergold20222022" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://github.com/watergold20222022/Journey-to-the-East" />
         <link rel="icon" href="/favicon.ico" />
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Journey to the East — A Cyberpunk Retelling of Journey to the West" />
+        <meta property="og:description" content="A cyberpunk sci-fi reimagining of the classic Chinese epic Journey to the West, written for contemporary Western readers." />
+        <meta property="og:url" content="https://github.com/watergold20222022/Journey-to-the-East" />
+        <meta property="og:site_name" content="Journey to the East" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Journey to the East — A Cyberpunk Retelling of Journey to the West" />
+        <meta name="twitter:description" content="A cyberpunk sci-fi reimagining of the classic Chinese epic Journey to the West, written for contemporary Western readers." />
       </Head>
 
       <header className="header">
         <h1>Journey to the East</h1>
         <p className="subtitle">SYSTEM STATUS: ONLINE | PROTOCOL: GREAT SAGE EQUAL TO HEAVEN</p>
+        <a
+          href="https://github.com/watergold20222022/Journey-to-the-East"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          github.com/watergold20222022/Journey-to-the-East
+        </a>
       </header>
 
       <main className="main">
@@ -291,6 +313,22 @@ export default function Home({ initialChapters }) {
           letter-spacing: 3px;
           font-weight: bold;
           margin-top: 0.5rem;
+        }
+
+        .github-link {
+          display: inline-block;
+          margin-top: 0.75rem;
+          color: #00ffff;
+          font-size: 0.8rem;
+          letter-spacing: 1px;
+          text-decoration: none;
+          opacity: 0.7;
+          transition: opacity 0.2s ease, text-shadow 0.2s ease;
+        }
+
+        .github-link:hover {
+          opacity: 1;
+          text-shadow: 0 0 8px #00ffff;
         }
         
         .main {

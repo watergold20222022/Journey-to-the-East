@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/watergold20222022/Journey-to-the-East/sitemap.xml
